@@ -25,6 +25,16 @@
   "objectsGroups": [],
   "variables": [
     {
+      "name": "CalculatedJumpSpeed",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "JumpChargeTime",
+      "type": "number",
+      "value": 0
+    },
+    {
       "name": "Score",
       "type": "number",
       "value": 0
@@ -228,7 +238,11 @@
       "effects": [],
       "behaviors": [
         {
+          "gravity": 1200,
+          "ignoreDefaultControls": true,
           "isFolded": true,
+          "jumpSpeed": 600,
+          "jumpSustainTime": 0.8,
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior",
           "acceleration": 250,
@@ -236,10 +250,6 @@
           "canGrabPlatforms": false,
           "canGrabWithoutMoving": false,
           "deceleration": 1500,
-          "gravity": 1000,
-          "ignoreDefaultControls": false,
-          "jumpSpeed": 400,
-          "jumpSustainTime": 0.2,
           "ladderClimbingSpeed": 150,
           "maxFallingSpeed": 400,
           "maxSpeed": 150,
@@ -4908,7 +4918,7 @@
           },
           "parameters": [
             "",
-            "4",
+            "2",
             "",
             "0"
           ]
@@ -5038,6 +5048,229 @@
             "Text",
             "=",
             "\"Score: \" + ToString(Score)"
+          ]
+        }
+      ]
+    },
+    {
+      "aiGeneratedEventId": "01KAEB07M12HJDGAET2Z7WG6ET",
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyFromTextJustPressed"
+          },
+          "parameters": [
+            "",
+            "\"Space\""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"JumpChargeTimer\""
+          ]
+        }
+      ]
+    },
+    {
+      "aiGeneratedEventId": "01KAEB78JYWP10WG58F5B0TKRA",
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyFromTextReleased"
+          },
+          "parameters": [
+            "",
+            "\"Space\""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        },
+        {
+          "type": {
+            "value": "PlatformBehavior::IsOnFloor"
+          },
+          "parameters": [
+            "Player",
+            "PlatformerObject"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "JumpChargeTime",
+            "=",
+            "TimerElapsedTime(\"JumpChargeTimer\")"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "CalculatedJumpSpeed",
+            "=",
+            "300 + (1200 - 300) / 2.0 * min(2.0, JumpChargeTime)"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlatformBehavior::JumpSpeed"
+          },
+          "parameters": [
+            "Player",
+            "PlatformerObject",
+            "=",
+            "CalculatedJumpSpeed"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlatformBehavior::SimulateJumpKey"
+          },
+          "parameters": [
+            "Player",
+            "PlatformerObject"
+          ]
+        },
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"JumpChargeTimer\""
+          ]
+        }
+      ]
+    },
+    {
+      "aiGeneratedEventId": "01KAEBA3PTYXJTB1MMN0JPVJ47",
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyFromTextPressed"
+          },
+          "parameters": [
+            "",
+            "\"Left\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlatformBehavior::SimulateLeftKey"
+          },
+          "parameters": [
+            "Player",
+            "PlatformerObject"
+          ]
+        }
+      ]
+    },
+    {
+      "aiGeneratedEventId": "01KAEBA3PTYXJTB1MMN0JPVJ47",
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyFromTextPressed"
+          },
+          "parameters": [
+            "",
+            "\"Right\""
+          ]
+        },
+        {
+          "type": {
+            "inverted": true,
+            "value": "KeyFromTextPressed"
+          },
+          "parameters": [
+            "",
+            "\"Left\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlatformBehavior::SimulateRightKey"
+          },
+          "parameters": [
+            "Player",
+            "PlatformerObject"
+          ]
+        }
+      ]
+    },
+    {
+      "aiGeneratedEventId": "01KAEBA3PTYXJTB1MMN0JPVJ47",
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "KeyFromTextPressed"
+          },
+          "parameters": [
+            "",
+            "\"Left\""
+          ]
+        },
+        {
+          "type": {
+            "inverted": true,
+            "value": "KeyFromTextPressed"
+          },
+          "parameters": [
+            "",
+            "\"Right\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlatformBehavior::SimulateControl"
+          },
+          "parameters": [
+            "Player",
+            "PlatformerObject",
+            "\"Release Left\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlatformBehavior::SimulateControl"
+          },
+          "parameters": [
+            "Player",
+            "PlatformerObject",
+            "\"Release Right\""
           ]
         }
       ]
