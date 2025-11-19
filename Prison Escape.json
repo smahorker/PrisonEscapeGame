@@ -1,0 +1,2005 @@
+{
+  "firstLayout": "",
+  "gdVersion": {
+    "build": 245,
+    "major": 5,
+    "minor": 5,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": true,
+    "antialiasingMode": "MSAA",
+    "antialisingEnabledOnMobile": false,
+    "folderProject": true,
+    "orientation": "landscape",
+    "packageName": "com.example.gamename",
+    "pixelsRounding": false,
+    "projectUuid": "3998fcaa-4e18-4c95-8448-bdd5e93c4f5d",
+    "scaleMode": "linear",
+    "sizeOnStartupMode": "adaptWidth",
+    "templateSlug": "",
+    "version": "1.0.0",
+    "name": "Prison Escape - Copy",
+    "description": "Prison Escape Game",
+    "author": "",
+    "windowWidth": 1280,
+    "windowHeight": 720,
+    "latestCompilationDirectory": "",
+    "maxFPS": 60,
+    "minFPS": 20,
+    "verticalSync": false,
+    "platformSpecificAssets": {
+      "android-icon-144": "",
+      "android-icon-192": "",
+      "android-icon-36": "",
+      "android-icon-48": "",
+      "android-icon-72": "",
+      "android-icon-96": "",
+      "android-windowSplashScreenAnimatedIcon": "",
+      "desktop-icon-512": "",
+      "ios-icon-100": "",
+      "ios-icon-1024": "",
+      "ios-icon-114": "",
+      "ios-icon-120": "",
+      "ios-icon-144": "",
+      "ios-icon-152": "",
+      "ios-icon-167": "",
+      "ios-icon-180": "",
+      "ios-icon-20": "",
+      "ios-icon-29": "",
+      "ios-icon-40": "",
+      "ios-icon-50": "",
+      "ios-icon-57": "",
+      "ios-icon-58": "",
+      "ios-icon-60": "",
+      "ios-icon-72": "",
+      "ios-icon-76": "",
+      "ios-icon-80": "",
+      "ios-icon-87": ""
+    },
+    "loadingScreen": {
+      "backgroundColor": 0,
+      "backgroundFadeInDuration": 0.2,
+      "backgroundImageResourceName": "",
+      "gdevelopLogoStyle": "light",
+      "logoAndProgressFadeInDuration": 0.2,
+      "logoAndProgressLogoFadeInDelay": 0,
+      "minDuration": 1.5,
+      "progressBarColor": 16777215,
+      "progressBarHeight": 20,
+      "progressBarMaxWidth": 200,
+      "progressBarMinWidth": 40,
+      "progressBarWidthPercent": 30,
+      "showGDevelopSplash": true,
+      "showProgressBar": true
+    },
+    "watermark": {
+      "placement": "bottom-left",
+      "showWatermark": true
+    },
+    "authorIds": [],
+    "authorUsernames": [],
+    "categories": [],
+    "playableDevices": [],
+    "extensionProperties": [],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "file": "assets/Cyber Prisoner_Death_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cyber Prisoner_Death_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Character/a0e543cd754256d3a70f3d7079bb2d5cdff71e5889802486c5a908d2a53aaa67_Cyber Prisoner_Death_1.png",
+          "name": "Cyber Prisoner_Death_1.png"
+        }
+      },
+      {
+        "file": "assets/Cyber Prisoner_Death_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cyber Prisoner_Death_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Character/ff4e8c952db82f56e95d9420f66f32db43d0ccab93053fea61a6cb62d0d16f21_Cyber Prisoner_Death_2.png",
+          "name": "Cyber Prisoner_Death_2.png"
+        }
+      },
+      {
+        "file": "assets/Cyber Prisoner_Death_9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cyber Prisoner_Death_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Character/a551f630311b11c41f0966ede596a25f2ac6d4a80d4f7c77bb7740383b8626b5_Cyber Prisoner_Death_3.png",
+          "name": "Cyber Prisoner_Death_3.png"
+        }
+      },
+      {
+        "file": "assets/Cyber Prisoner_Death_10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cyber Prisoner_Death_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Character/3bfc5fd121c6d95971c8c868d1ab52c5a2d4cbb0b43aba4c75f718143abc1404_Cyber Prisoner_Death_4.png",
+          "name": "Cyber Prisoner_Death_4.png"
+        }
+      },
+      {
+        "file": "assets/Cyber Prisoner_Death_11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cyber Prisoner_Death_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Character/27102e9a0bfd1a6bced05022cd18e52568f01f10ba689367812ee66eb20eb0a7_Cyber Prisoner_Death_5.png",
+          "name": "Cyber Prisoner_Death_5.png"
+        }
+      },
+      {
+        "file": "assets/Cyber Prisoner_Death_12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cyber Prisoner_Death_6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Character/78d73c52ef1d815580a3dc929675a8099d2320a68e2cafa722c8155ae740e805_Cyber Prisoner_Death_6.png",
+          "name": "Cyber Prisoner_Death_6.png"
+        }
+      },
+      {
+        "file": "assets/Cyber Prisoner_Double Jump_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cyber Prisoner_Double Jump_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Character/f123af51d60d85e505301931a1dd4393861814847b568a05741c3896ab8a699f_Cyber Prisoner_Double Jump_1.png",
+          "name": "Cyber Prisoner_Double Jump_1.png"
+        }
+      },
+      {
+        "file": "assets/Cyber Prisoner_Double Jump_9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cyber Prisoner_Double Jump_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Character/70f25a59dcb67a83c006188cfd1de9afc699fc9535abaaba7df08d23e2aa082e_Cyber Prisoner_Double Jump_2.png",
+          "name": "Cyber Prisoner_Double Jump_2.png"
+        }
+      },
+      {
+        "file": "assets/Cyber Prisoner_Double Jump_10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cyber Prisoner_Double Jump_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Character/7c9cf7afa269015c10d4723b63c74ee69b0c9f9291ea14674778e4629401633a_Cyber Prisoner_Double Jump_3.png",
+          "name": "Cyber Prisoner_Double Jump_3.png"
+        }
+      },
+      {
+        "file": "assets/Cyber Prisoner_Double Jump_11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cyber Prisoner_Double Jump_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Character/91afe095df07f9629aa5849f40dbbb948b5b0a5f08f2fbee2f6d618f9432ac43_Cyber Prisoner_Double Jump_4.png",
+          "name": "Cyber Prisoner_Double Jump_4.png"
+        }
+      },
+      {
+        "file": "assets/Cyber Prisoner_Double Jump_12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cyber Prisoner_Double Jump_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Character/879953908c029004652c1762a8d1cac48fecf5b076bafd060a2e7e8dc287bd2b_Cyber Prisoner_Double Jump_5.png",
+          "name": "Cyber Prisoner_Double Jump_5.png"
+        }
+      },
+      {
+        "file": "assets/Cyber Prisoner_Double Jump_13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cyber Prisoner_Double Jump_6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Character/ef20bd884c2e2c9aa52bf396e9b109ece4b1d60fe52c4bd0a9a922eef082d6d5_Cyber Prisoner_Double Jump_6.png",
+          "name": "Cyber Prisoner_Double Jump_6.png"
+        }
+      },
+      {
+        "file": "assets/Cyber Prisoner_Double Jump_14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cyber Prisoner_Double Jump_7.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Character/7031994dd5a12df21c0306fbbfd705cfda9d8e3ed8db867e6e8128f2ecff0a22_Cyber Prisoner_Double Jump_7.png",
+          "name": "Cyber Prisoner_Double Jump_7.png"
+        }
+      },
+      {
+        "file": "assets/Cyber Prisoner_Heavy Attack Laser_13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cyber Prisoner_Heavy Attack Laser_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Character/565a2b940e7a6942cab81b509e21b2672e9901e82786ee9426ba65482eec0082_Cyber Prisoner_Heavy Attack Laser_1.png",
+          "name": "Cyber Prisoner_Heavy Attack Laser_1.png"
+        }
+      },
+      {
+        "file": "assets/Cyber Prisoner_Heavy Attack Laser_14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cyber Prisoner_Heavy Attack Laser_10.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Character/39e18f3f35a570467fe29ca4ae714b47e86e321acc1a0d3810f788564dc8f35f_Cyber Prisoner_Heavy Attack Laser_10.png",
+          "name": "Cyber Prisoner_Heavy Attack Laser_10.png"
+        }
+      },
+      {
+        "file": "assets/Cyber Prisoner_Heavy Attack Laser_15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cyber Prisoner_Heavy Attack Laser_11.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Character/6429e7b3466f352bba1b7c35b1edb13829702626c355857ecb8c1eab4e65eb5c_Cyber Prisoner_Heavy Attack Laser_11.png",
+          "name": "Cyber Prisoner_Heavy Attack Laser_11.png"
+        }
+      },
+      {
+        "file": "assets/Cyber Prisoner_Heavy Attack Laser_16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cyber Prisoner_Heavy Attack Laser_12.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Character/1e59b577c7f685a9942e36bdd5b40731ae28c1cf4a0767f0ee9dc2c062eb0086_Cyber Prisoner_Heavy Attack Laser_12.png",
+          "name": "Cyber Prisoner_Heavy Attack Laser_12.png"
+        }
+      },
+      {
+        "file": "assets/Cyber Prisoner_Heavy Attack Laser_17.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cyber Prisoner_Heavy Attack Laser_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Character/10f7d9cfc127e57898c0ae0e1f903dc9dd1b79bdd104d9ca288b77fc59152c4c_Cyber Prisoner_Heavy Attack Laser_2.png",
+          "name": "Cyber Prisoner_Heavy Attack Laser_2.png"
+        }
+      },
+      {
+        "file": "assets/Cyber Prisoner_Heavy Attack Laser_18.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cyber Prisoner_Heavy Attack Laser_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Character/70a359ae906fb094be46f8b095ce351a00a2997d0d6ac4bad7064d9cfecda5ed_Cyber Prisoner_Heavy Attack Laser_3.png",
+          "name": "Cyber Prisoner_Heavy Attack Laser_3.png"
+        }
+      },
+      {
+        "file": "assets/Cyber Prisoner_Heavy Attack Laser_19.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cyber Prisoner_Heavy Attack Laser_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Character/cf4ecd443e110fb5a3648cd13ca307ec4874226ebf5591958ba2fec8b0ba9b46_Cyber Prisoner_Heavy Attack Laser_4.png",
+          "name": "Cyber Prisoner_Heavy Attack Laser_4.png"
+        }
+      },
+      {
+        "file": "assets/Cyber Prisoner_Heavy Attack Laser_20.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cyber Prisoner_Heavy Attack Laser_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Character/ad84568b68bb8e35a1cb5fd349ba7c4d17d6003c355dc37ee06fa409a9e51b7d_Cyber Prisoner_Heavy Attack Laser_5.png",
+          "name": "Cyber Prisoner_Heavy Attack Laser_5.png"
+        }
+      },
+      {
+        "file": "assets/Cyber Prisoner_Heavy Attack Laser_21.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cyber Prisoner_Heavy Attack Laser_6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Character/f33c0fc969ad08e1f322857f55223d679216fac749ae9fc9e1dc3c0900397179_Cyber Prisoner_Heavy Attack Laser_6.png",
+          "name": "Cyber Prisoner_Heavy Attack Laser_6.png"
+        }
+      },
+      {
+        "file": "assets/Cyber Prisoner_Heavy Attack Laser_22.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cyber Prisoner_Heavy Attack Laser_7.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Character/d12a52bd00a79b9b53e9cdf136ad9ccb0d1f2a806b83563db178de510fec790c_Cyber Prisoner_Heavy Attack Laser_7.png",
+          "name": "Cyber Prisoner_Heavy Attack Laser_7.png"
+        }
+      },
+      {
+        "file": "assets/Cyber Prisoner_Heavy Attack Laser_23.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cyber Prisoner_Heavy Attack Laser_8.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Character/c1978d118e45cbaf5798ad5936b7065f845cd88c5497da206d50ab478ff416fb_Cyber Prisoner_Heavy Attack Laser_8.png",
+          "name": "Cyber Prisoner_Heavy Attack Laser_8.png"
+        }
+      },
+      {
+        "file": "assets/Cyber Prisoner_Heavy Attack Laser_24.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cyber Prisoner_Heavy Attack Laser_9.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Character/e3d273aec7273c713f2195d539b2ed23bf9c8e169289d2e1a225cdceb306a4b5_Cyber Prisoner_Heavy Attack Laser_9.png",
+          "name": "Cyber Prisoner_Heavy Attack Laser_9.png"
+        }
+      },
+      {
+        "file": "assets/Cyber Prisoner_Hurt_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cyber Prisoner_Hurt_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Character/361a18cd52d41e622e3735533d404d225fc8766e2ad891d463f0b6631f002893_Cyber Prisoner_Hurt_1.png",
+          "name": "Cyber Prisoner_Hurt_1.png"
+        }
+      },
+      {
+        "file": "assets/Cyber Prisoner_Hurt_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cyber Prisoner_Hurt_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Character/5b97526f96c4068898d7448d054fd1d1f8e510389433b08bc4ba0f34eb308929_Cyber Prisoner_Hurt_2.png",
+          "name": "Cyber Prisoner_Hurt_2.png"
+        }
+      },
+      {
+        "file": "assets/Cyber Prisoner_Hurt_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cyber Prisoner_Hurt_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Character/f4591e431620e45f210af3e4d5ba3ed981e4d22359df0665e499da71747db186_Cyber Prisoner_Hurt_3.png",
+          "name": "Cyber Prisoner_Hurt_3.png"
+        }
+      },
+      {
+        "file": "assets/Cyber Prisoner_Idle_9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cyber Prisoner_Idle_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Character/f4591e431620e45f210af3e4d5ba3ed981e4d22359df0665e499da71747db186_Cyber Prisoner_Idle_1.png",
+          "name": "Cyber Prisoner_Idle_1.png"
+        }
+      },
+      {
+        "file": "assets/Cyber Prisoner_Idle_10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cyber Prisoner_Idle_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Character/846c0465fed113ad08acbe170f7e4be272279227fbb0d20d7c41278cec69e05c_Cyber Prisoner_Idle_2.png",
+          "name": "Cyber Prisoner_Idle_2.png"
+        }
+      },
+      {
+        "file": "assets/Cyber Prisoner_Idle_11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cyber Prisoner_Idle_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Character/18999f6d81f9bc8d4f7540482afdd3d07b1e9d871b13976a4d407ec70bcd1c2b_Cyber Prisoner_Idle_3.png",
+          "name": "Cyber Prisoner_Idle_3.png"
+        }
+      },
+      {
+        "file": "assets/Cyber Prisoner_Idle_12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cyber Prisoner_Idle_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Character/5f7015ce20afe1e2c2975da9b8e4db6093805adaa991625e1dbde097db6b66b0_Cyber Prisoner_Idle_4.png",
+          "name": "Cyber Prisoner_Idle_4.png"
+        }
+      },
+      {
+        "file": "assets/Cyber Prisoner_Idle_13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cyber Prisoner_Idle_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Character/ea24c3a9c0e49b2af27ed3a5fc3661652d9505e696b9247b567d031d9bd52cfb_Cyber Prisoner_Idle_5.png",
+          "name": "Cyber Prisoner_Idle_5.png"
+        }
+      },
+      {
+        "file": "assets/Cyber Prisoner_Idle_14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cyber Prisoner_Idle_6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Character/357152eb5cfa47f2bd820ded49415dbba5770ef02c37a339c2f877a3f1e1fba9_Cyber Prisoner_Idle_6.png",
+          "name": "Cyber Prisoner_Idle_6.png"
+        }
+      },
+      {
+        "file": "assets/Cyber Prisoner_Idle_15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cyber Prisoner_Idle_7.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Character/bc7248616353b933a5cde210ce2b6db5e477cb983179c4d98c008c6ce5494520_Cyber Prisoner_Idle_7.png",
+          "name": "Cyber Prisoner_Idle_7.png"
+        }
+      },
+      {
+        "file": "assets/Cyber Prisoner_Idle_16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cyber Prisoner_Idle_8.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Character/3bcd9322d4a3466495a7f6cba1af4f0854091d9c25ccd093c0445a15f0ccd82f_Cyber Prisoner_Idle_8.png",
+          "name": "Cyber Prisoner_Idle_8.png"
+        }
+      },
+      {
+        "file": "assets/Cyber Prisoner_Jump_12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cyber Prisoner_Jump_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Character/21ff4e2c4e7d1a572f6c0df3fc4dfda5191e31d6b517b19a746e11243811d359_Cyber Prisoner_Jump_1.png",
+          "name": "Cyber Prisoner_Jump_1.png"
+        }
+      },
+      {
+        "file": "assets/Cyber Prisoner_Jump_13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cyber Prisoner_Jump_10.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Character/96eaa169cfdfb706e1f9004d3f807b4fdf84a28c0c4902ca1fd1388b77770e31_Cyber Prisoner_Jump_10.png",
+          "name": "Cyber Prisoner_Jump_10.png"
+        }
+      },
+      {
+        "file": "assets/Cyber Prisoner_Jump_14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cyber Prisoner_Jump_11.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Character/79952a3899d0827ca649a9a6b7ad2c85e0894c374a372adfe25439dd32d12d4e_Cyber Prisoner_Jump_11.png",
+          "name": "Cyber Prisoner_Jump_11.png"
+        }
+      },
+      {
+        "file": "assets/Cyber Prisoner_Jump_15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cyber Prisoner_Jump_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Character/8662bba7e34e054d496297f8d245c1ac8b2a34d048b9b668cc84926869cfd8bc_Cyber Prisoner_Jump_2.png",
+          "name": "Cyber Prisoner_Jump_2.png"
+        }
+      },
+      {
+        "file": "assets/Cyber Prisoner_Jump_16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cyber Prisoner_Jump_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Character/e0871c0097158b19b2392164da60044aa33b76f61e21ecebb20ae811e88e2fc1_Cyber Prisoner_Jump_3.png",
+          "name": "Cyber Prisoner_Jump_3.png"
+        }
+      },
+      {
+        "file": "assets/Cyber Prisoner_Jump_17.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cyber Prisoner_Jump_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Character/50b4a4228eae8333e4c729d98b38b794c7ab30b6aea179c8f2f57f1535ed1868_Cyber Prisoner_Jump_4.png",
+          "name": "Cyber Prisoner_Jump_4.png"
+        }
+      },
+      {
+        "file": "assets/Cyber Prisoner_Jump_18.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cyber Prisoner_Jump_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Character/c706531c4e36cf4d9fea7e330cab156ede2141926b9f5c51829fb0281a3d4495_Cyber Prisoner_Jump_5.png",
+          "name": "Cyber Prisoner_Jump_5.png"
+        }
+      },
+      {
+        "file": "assets/Cyber Prisoner_Jump_19.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cyber Prisoner_Jump_6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Character/55a48669f7745d34f98622fe3424a6c742755145a9269a875e30300374b52b34_Cyber Prisoner_Jump_6.png",
+          "name": "Cyber Prisoner_Jump_6.png"
+        }
+      },
+      {
+        "file": "assets/Cyber Prisoner_Jump_20.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cyber Prisoner_Jump_7.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Character/68089c0a402aae6a43fe2c35e7d61e9347d58a17e48f13586552aecdd67178fc_Cyber Prisoner_Jump_7.png",
+          "name": "Cyber Prisoner_Jump_7.png"
+        }
+      },
+      {
+        "file": "assets/Cyber Prisoner_Jump_21.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cyber Prisoner_Jump_8.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Character/bc2bfc077fbbd9e019237ab6639aae066fa9db39e71b7de6f0dd1950c709e2d1_Cyber Prisoner_Jump_8.png",
+          "name": "Cyber Prisoner_Jump_8.png"
+        }
+      },
+      {
+        "file": "assets/Cyber Prisoner_Jump_22.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cyber Prisoner_Jump_9.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Character/a30b567baca99fa7c7109113a2fb681c947467633e57c4a45aea70a36f50a2aa_Cyber Prisoner_Jump_9.png",
+          "name": "Cyber Prisoner_Jump_9.png"
+        }
+      },
+      {
+        "file": "assets/Cyber Prisoner_Light Attack Slash_10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cyber Prisoner_Light Attack Slash_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Character/ba39de7b61f4eeea6e76dd2d88000f48145aa6c598db9e0a222cae99157c43ca_Cyber Prisoner_Light Attack Slash_1.png",
+          "name": "Cyber Prisoner_Light Attack Slash_1.png"
+        }
+      },
+      {
+        "file": "assets/Cyber Prisoner_Light Attack Slash_11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cyber Prisoner_Light Attack Slash_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Character/b0f9b616265839ed32bcdf0e8d53f9b87c40c146c176bc5681698ada3d4c5501_Cyber Prisoner_Light Attack Slash_2.png",
+          "name": "Cyber Prisoner_Light Attack Slash_2.png"
+        }
+      },
+      {
+        "file": "assets/Cyber Prisoner_Light Attack Slash_12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cyber Prisoner_Light Attack Slash_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Character/d14feb5b148d6a315f1ad2aca685801162a0700bd038eb5ba9dc4725b7ade98c_Cyber Prisoner_Light Attack Slash_3.png",
+          "name": "Cyber Prisoner_Light Attack Slash_3.png"
+        }
+      },
+      {
+        "file": "assets/Cyber Prisoner_Light Attack Slash_13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cyber Prisoner_Light Attack Slash_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Character/58b365eb9a620b3bb2447613343eabc513c1189e650fa7ae4b37cdae6d2e7ebe_Cyber Prisoner_Light Attack Slash_4.png",
+          "name": "Cyber Prisoner_Light Attack Slash_4.png"
+        }
+      },
+      {
+        "file": "assets/Cyber Prisoner_Light Attack Slash_14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cyber Prisoner_Light Attack Slash_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Character/d95f7d36a84516df9f88061e3966aec3d3462672071a65eea5620c21166b80fd_Cyber Prisoner_Light Attack Slash_5.png",
+          "name": "Cyber Prisoner_Light Attack Slash_5.png"
+        }
+      },
+      {
+        "file": "assets/Cyber Prisoner_Light Attack Slash_15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cyber Prisoner_Light Attack Slash_6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Character/69b1d518b02aa9c4d70cc40cc9204b60ca970771ae8553cbee47a9b74bb6df51_Cyber Prisoner_Light Attack Slash_6.png",
+          "name": "Cyber Prisoner_Light Attack Slash_6.png"
+        }
+      },
+      {
+        "file": "assets/Cyber Prisoner_Light Attack Slash_16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cyber Prisoner_Light Attack Slash_7.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Character/9943eb1261d15bb0c04ee66d827e5be3936f3a667138c2cb989532fbbca02796_Cyber Prisoner_Light Attack Slash_7.png",
+          "name": "Cyber Prisoner_Light Attack Slash_7.png"
+        }
+      },
+      {
+        "file": "assets/Cyber Prisoner_Light Attack Slash_17.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cyber Prisoner_Light Attack Slash_8.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Character/d8cd97c5521ff806f67a7d820a0c1e89d4bbeb32b7788142b5e9832a231f97ca_Cyber Prisoner_Light Attack Slash_8.png",
+          "name": "Cyber Prisoner_Light Attack Slash_8.png"
+        }
+      },
+      {
+        "file": "assets/Cyber Prisoner_Light Attack Slash_18.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cyber Prisoner_Light Attack Slash_9.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Character/7e9ebb5a4176e4d118d72b853e4e228db50f40ec6d8f2bd9ff141a86b9649052_Cyber Prisoner_Light Attack Slash_9.png",
+          "name": "Cyber Prisoner_Light Attack Slash_9.png"
+        }
+      },
+      {
+        "file": "assets/Cyber Prisoner_Run_9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cyber Prisoner_Run_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Character/0930e197bcb19c2fcec20a11019b0ce4188337dedf0ee0857c729e904f3d71c6_Cyber Prisoner_Run_1.png",
+          "name": "Cyber Prisoner_Run_1.png"
+        }
+      },
+      {
+        "file": "assets/Cyber Prisoner_Run_10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cyber Prisoner_Run_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Character/088321aa636bc250b90fea8ece323704d3112e3a1cbc726bca571f869009ca15_Cyber Prisoner_Run_2.png",
+          "name": "Cyber Prisoner_Run_2.png"
+        }
+      },
+      {
+        "file": "assets/Cyber Prisoner_Run_11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cyber Prisoner_Run_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Character/3f566b1ddc714b5b9176697837c4dce4ef3515985b792477954b29b1dcb0419b_Cyber Prisoner_Run_3.png",
+          "name": "Cyber Prisoner_Run_3.png"
+        }
+      },
+      {
+        "file": "assets/Cyber Prisoner_Run_12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cyber Prisoner_Run_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Character/47737fd839e28310818808f94b30c86d2ed7ffcf2bdfd7268300fa70b6bc56f9_Cyber Prisoner_Run_4.png",
+          "name": "Cyber Prisoner_Run_4.png"
+        }
+      },
+      {
+        "file": "assets/Cyber Prisoner_Run_13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cyber Prisoner_Run_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Character/6b3116b724ddba118e03847bc24d495811df47c94888a9cf8df6411f04dfc560_Cyber Prisoner_Run_5.png",
+          "name": "Cyber Prisoner_Run_5.png"
+        }
+      },
+      {
+        "file": "assets/Cyber Prisoner_Run_14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cyber Prisoner_Run_6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Character/d612e59c3184f2240efa1ae296134fd2b44c72da62614bb9ec68f39bb23a4fd1_Cyber Prisoner_Run_6.png",
+          "name": "Cyber Prisoner_Run_6.png"
+        }
+      },
+      {
+        "file": "assets/Cyber Prisoner_Run_15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cyber Prisoner_Run_7.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Character/b2784086a8926fa2640e8fe54fd94e68ca3ba3247373106e71828f19219638cd_Cyber Prisoner_Run_7.png",
+          "name": "Cyber Prisoner_Run_7.png"
+        }
+      },
+      {
+        "file": "assets/Cyber Prisoner_Run_16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cyber Prisoner_Run_8.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Character/44d11ad3f48258b2273bbbb7d3e4beb8c5e73726894eb3f1ae80d568584481ff_Cyber Prisoner_Run_8.png",
+          "name": "Cyber Prisoner_Run_8.png"
+        }
+      },
+      {
+        "file": "assets/Cyber Prisoner_Wall Grab_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cyber Prisoner_Wall Grab_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Character/0d994aeca472e9164f7f92845b4eee77b6f4c088a27af7835adfb74a242e3071_Cyber Prisoner_Wall Grab_1.png",
+          "name": "Cyber Prisoner_Wall Grab_1.png"
+        }
+      },
+      {
+        "file": "assets/Cyber Prisoner_Wall Grab_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cyber Prisoner_Wall Grab_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Character/50621ec892ffe9a9a4a69b24c5f54031df1a45981997547ec7dc4677d7bb19fc_Cyber Prisoner_Wall Grab_2.png",
+          "name": "Cyber Prisoner_Wall Grab_2.png"
+        }
+      },
+      {
+        "file": "assets/Cyber Prisoner_Wall Grab_9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cyber Prisoner_Wall Grab_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Character/8cafb604226f741caef0e84bb7512935c7eba59f5dc031ca9db18c5695870a89_Cyber Prisoner_Wall Grab_3.png",
+          "name": "Cyber Prisoner_Wall Grab_3.png"
+        }
+      },
+      {
+        "file": "assets/Cyber Prisoner_Wall Grab_10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cyber Prisoner_Wall Grab_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Character/10233acbb27b37a92141683686c6b061205fc51f10a7e9975471aab010a23acb_Cyber Prisoner_Wall Grab_4.png",
+          "name": "Cyber Prisoner_Wall Grab_4.png"
+        }
+      },
+      {
+        "file": "assets/Cyber Prisoner_Wall Grab_11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cyber Prisoner_Wall Grab_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Character/5a1018ec19b2fca61cae94d13ab6ad24ccdf48d4bfbc79da588ebc386c5d8600_Cyber Prisoner_Wall Grab_5.png",
+          "name": "Cyber Prisoner_Wall Grab_5.png"
+        }
+      },
+      {
+        "file": "assets/Cyber Prisoner_Wall Grab_12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cyber Prisoner_Wall Grab_6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Character/2c9e620c8c2a574df45791daba2fe0f3625db93eb5869b941d4d93f5818c6642_Cyber Prisoner_Wall Grab_6.png",
+          "name": "Cyber Prisoner_Wall Grab_6.png"
+        }
+      },
+      {
+        "file": "assets/tiled_industrial platform center.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tiled_industrial platform center.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Industrial Platformer Pack (110 assets)/PNG/Retina/ca47e97bdd8bab0411d72164191dd8406065208ed50ade5597e76964abdeb101_tiled_industrial platform center.png",
+          "name": "tiled_industrial platform center.png"
+        }
+      },
+      {
+        "file": "assets/Ladder.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Ladder.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GDevelop examples/Platformer/Level/e3006f0b8d3bf869f63406aa49df6648c3da1723625dd4895577638ed4cad787_Ladder.png",
+          "name": "Ladder.png"
+        }
+      },
+      {
+        "file": "assets/Diego_Blink_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Diego_Blink_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 7/Diego/7fd9b47712049772313eba222902768211313af7d14599a49eb235ca7c68a7d9_Diego_Blink_1.png",
+          "name": "Diego_Blink_1.png"
+        }
+      },
+      {
+        "file": "assets/Diego_Blink_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Diego_Blink_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 7/Diego/273d7d88367c8af0916357ec9438422e1e1183594c2f61aab8130e53f5908d7e_Diego_Blink_2.png",
+          "name": "Diego_Blink_2.png"
+        }
+      },
+      {
+        "file": "assets/Diego_Blink_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Diego_Blink_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 7/Diego/607758d2c25dbbb0f638323c7c5d955641fd72a655c0b05e31e6d676444c2239_Diego_Blink_3.png",
+          "name": "Diego_Blink_3.png"
+        }
+      },
+      {
+        "file": "assets/Diego_Crouching.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Diego_Crouching.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 7/Diego/7d7e739068705c4321104818766f2cc0c0bde165f4f456a5b97a4734d3fb1fa2_Diego_Crouching.png",
+          "name": "Diego_Crouching.png"
+        }
+      },
+      {
+        "file": "assets/Diego_Hurt.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Diego_Hurt.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 7/Diego/9a9f12417b8378e1c80a30eed79510ea7b1063fdd4c4c80714dd8738f25fda74_Diego_Hurt.png",
+          "name": "Diego_Hurt.png"
+        }
+      },
+      {
+        "file": "assets/Diego_Idle_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Diego_Idle_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 7/Diego/7fd9b47712049772313eba222902768211313af7d14599a49eb235ca7c68a7d9_Diego_Idle_1.png",
+          "name": "Diego_Idle_1.png"
+        }
+      },
+      {
+        "file": "assets/Diego_Idle_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Diego_Idle_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 7/Diego/96f319f4336c902ed99247bc50335b30fce182eb285e1df3d1998810d48da977_Diego_Idle_2.png",
+          "name": "Diego_Idle_2.png"
+        }
+      },
+      {
+        "file": "assets/Diego_Idle_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Diego_Idle_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 7/Diego/537541c02e6999e00e067e16533d45a2b3a28fe4f3fb9f89560c49b6e654ffa7_Diego_Idle_3.png",
+          "name": "Diego_Idle_3.png"
+        }
+      },
+      {
+        "file": "assets/Diego_Idle_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Diego_Idle_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 7/Diego/050af19293edf52ae92b79e7b17327e28a710802bed4b512387f70f9eaf80de6_Diego_Idle_4.png",
+          "name": "Diego_Idle_4.png"
+        }
+      },
+      {
+        "file": "assets/Diego_Jump.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Diego_Jump.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 7/Diego/91f6cba761c773cd24c54ce245bf592bfd18ef1f7bf4b96912de149e014bce7c_Diego_Jump.png",
+          "name": "Diego_Jump.png"
+        }
+      },
+      {
+        "file": "assets/Diego_Reloading while crouching_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Diego_Reloading while crouching_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 7/Diego/087d961446e3f349dc9757389f5a44dff11b13f845f6792a3458ef71c0762bbc_Diego_Reloading while crouching_1.png",
+          "name": "Diego_Reloading while crouching_1.png"
+        }
+      },
+      {
+        "file": "assets/Diego_Reloading while crouching_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Diego_Reloading while crouching_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 7/Diego/f2b33bf73bf37a7416c2be2f56ee17d953506a4f8ba11dad6f7a06d12cafaf24_Diego_Reloading while crouching_2.png",
+          "name": "Diego_Reloading while crouching_2.png"
+        }
+      },
+      {
+        "file": "assets/Diego_Reloading while crouching_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Diego_Reloading while crouching_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 7/Diego/f6c37abcf46779c91e0aa3d391e1f6deb548c42fe26ee6cd1d879c4ca4f65a83_Diego_Reloading while crouching_3.png",
+          "name": "Diego_Reloading while crouching_3.png"
+        }
+      },
+      {
+        "file": "assets/Diego_Reloading while crouching_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Diego_Reloading while crouching_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 7/Diego/86aa326434a970dc466e6d6660a5918260b4e024d290831d74d1f422bdd67938_Diego_Reloading while crouching_4.png",
+          "name": "Diego_Reloading while crouching_4.png"
+        }
+      },
+      {
+        "file": "assets/Diego_Reloading while crouching_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Diego_Reloading while crouching_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 7/Diego/df43a920041691c609909641f3329a99e80b3382ca172945acfa2fb8bff9ce45_Diego_Reloading while crouching_5.png",
+          "name": "Diego_Reloading while crouching_5.png"
+        }
+      },
+      {
+        "file": "assets/Diego_Reloading while crouching_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Diego_Reloading while crouching_6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 7/Diego/ed6bff7b83be985ede9cb2115082c58bb59c829b002fb3e915f74b881c7a7aeb_Diego_Reloading while crouching_6.png",
+          "name": "Diego_Reloading while crouching_6.png"
+        }
+      },
+      {
+        "file": "assets/Diego_Reloading while crouching_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Diego_Reloading while crouching_7.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 7/Diego/756314e575cdcd7ce3d3cc5bae758c9b254c5788229a5b549493f1d44425b563_Diego_Reloading while crouching_7.png",
+          "name": "Diego_Reloading while crouching_7.png"
+        }
+      },
+      {
+        "file": "assets/Diego_Reloading while standing_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Diego_Reloading while standing_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 7/Diego/7c9f80a5867ef527ebbd5c1794b870d02bfd18f4bf0c10d4a3adf2177f2e78f4_Diego_Reloading while standing_1.png",
+          "name": "Diego_Reloading while standing_1.png"
+        }
+      },
+      {
+        "file": "assets/Diego_Reloading while standing_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Diego_Reloading while standing_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 7/Diego/38feb842268cd5e6f9541dff317a6b62ef92ac9a8ab835bba8665b24027a79fc_Diego_Reloading while standing_2.png",
+          "name": "Diego_Reloading while standing_2.png"
+        }
+      },
+      {
+        "file": "assets/Diego_Reloading while standing_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Diego_Reloading while standing_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 7/Diego/bee9883c926a0509d252c9e62aeed0c798a0b2d7231e5d326f218e5592763085_Diego_Reloading while standing_3.png",
+          "name": "Diego_Reloading while standing_3.png"
+        }
+      },
+      {
+        "file": "assets/Diego_Reloading while standing_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Diego_Reloading while standing_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 7/Diego/8ab64a718eec40354c5230256141c75ec2bca22910ec56f6856c96836baf157e_Diego_Reloading while standing_4.png",
+          "name": "Diego_Reloading while standing_4.png"
+        }
+      },
+      {
+        "file": "assets/Diego_Reloading while standing_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Diego_Reloading while standing_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 7/Diego/1c0ee7a7d7b1a90b29ea0ef07f7d260186ffa3d75ed7eb455d932e6275090115_Diego_Reloading while standing_5.png",
+          "name": "Diego_Reloading while standing_5.png"
+        }
+      },
+      {
+        "file": "assets/Diego_Reloading while standing_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Diego_Reloading while standing_6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 7/Diego/ccb154ba009d5f0bf6d4a3d039071bc0feb2ffe2ce6a21f4b0fe3a20b895606f_Diego_Reloading while standing_6.png",
+          "name": "Diego_Reloading while standing_6.png"
+        }
+      },
+      {
+        "file": "assets/Diego_Reloading while standing_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Diego_Reloading while standing_7.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 7/Diego/7fd9b47712049772313eba222902768211313af7d14599a49eb235ca7c68a7d9_Diego_Reloading while standing_7.png",
+          "name": "Diego_Reloading while standing_7.png"
+        }
+      },
+      {
+        "file": "assets/Diego_Running_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Diego_Running_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 7/Diego/06b1365af4805141448c37bbf01750c18526182dc1494eb1b7d34b9b443c5726_Diego_Running_1.png",
+          "name": "Diego_Running_1.png"
+        }
+      },
+      {
+        "file": "assets/Diego_Running_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Diego_Running_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 7/Diego/99333c4dc7f0120719050f4b39912a1b928483e9bff716a3de3c9302242dc6c1_Diego_Running_2.png",
+          "name": "Diego_Running_2.png"
+        }
+      },
+      {
+        "file": "assets/Diego_Running_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Diego_Running_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 7/Diego/823ce1c55f31642543dafa517366704d3de7dcc2db7009ef8edb5a7ddb72c0eb_Diego_Running_3.png",
+          "name": "Diego_Running_3.png"
+        }
+      },
+      {
+        "file": "assets/Diego_Running_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Diego_Running_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 7/Diego/53986ca0691f783434e28ec6b5a334971e7d9694d2027c0e77253dafa7e324dd_Diego_Running_4.png",
+          "name": "Diego_Running_4.png"
+        }
+      },
+      {
+        "file": "assets/Diego_Running_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Diego_Running_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 7/Diego/14f6580b8282468c4c3b788f417f0e47b5aae071841691ce9aecccda5c71aedc_Diego_Running_5.png",
+          "name": "Diego_Running_5.png"
+        }
+      },
+      {
+        "file": "assets/Diego_Running_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Diego_Running_6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 7/Diego/4de55547fa045125c5c7c548230effac649fad9bdb6b67e621053938f693a5d5_Diego_Running_6.png",
+          "name": "Diego_Running_6.png"
+        }
+      },
+      {
+        "file": "assets/Diego_Shooting while crouching_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Diego_Shooting while crouching_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 7/Diego/4cf85e71c53b3a789c8936cae53317f509a34c569ce3c000a94d73d43d8359e1_Diego_Shooting while crouching_1.png",
+          "name": "Diego_Shooting while crouching_1.png"
+        }
+      },
+      {
+        "file": "assets/Diego_Shooting while crouching_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Diego_Shooting while crouching_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 7/Diego/a0cfd41a3332632381a17d2de42a026fed5681972ecce32cee78e0fc0246f7ec_Diego_Shooting while crouching_2.png",
+          "name": "Diego_Shooting while crouching_2.png"
+        }
+      },
+      {
+        "file": "assets/Diego_Shooting while crouching_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Diego_Shooting while crouching_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 7/Diego/2df9a558a027314ad535d1504792c8a6787a57fd6f3d7329e58e28c1e324998c_Diego_Shooting while crouching_3.png",
+          "name": "Diego_Shooting while crouching_3.png"
+        }
+      },
+      {
+        "file": "assets/Diego_Shooting while jumping_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Diego_Shooting while jumping_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 7/Diego/9fe1309cb949c2fe869db40ecbf57bcbc980732b074a5f16afff1b9ae2d38ea6_Diego_Shooting while jumping_1.png",
+          "name": "Diego_Shooting while jumping_1.png"
+        }
+      },
+      {
+        "file": "assets/Diego_Shooting while jumping_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Diego_Shooting while jumping_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 7/Diego/5408200d0bfad720b0fb638ccab05912b443bcf0f02b5aab812aa584a6bb48cf_Diego_Shooting while jumping_2.png",
+          "name": "Diego_Shooting while jumping_2.png"
+        }
+      },
+      {
+        "file": "assets/Diego_Shooting while jumping_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Diego_Shooting while jumping_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 7/Diego/f4a279f65708997b149901702b9648f787c95cb1d103ab9ab6087d3ce3df6ac6_Diego_Shooting while jumping_3.png",
+          "name": "Diego_Shooting while jumping_3.png"
+        }
+      },
+      {
+        "file": "assets/Diego_Shooting while running_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Diego_Shooting while running_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 7/Diego/da2167481fc54f683a72becac616a8764f12f04fb2d37a705a17f64b86cf47e1_Diego_Shooting while running_1.png",
+          "name": "Diego_Shooting while running_1.png"
+        }
+      },
+      {
+        "file": "assets/Diego_Shooting while running_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Diego_Shooting while running_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 7/Diego/824478966053a2249880bc75896c0eaab33d7f73e318179fb3b9dc5736f237dd_Diego_Shooting while running_2.png",
+          "name": "Diego_Shooting while running_2.png"
+        }
+      },
+      {
+        "file": "assets/Diego_Shooting while running_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Diego_Shooting while running_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 7/Diego/63aac3673b80a2d01b4bba16f2e4f4bc4a570c66fc64b655b384c8521a059b55_Diego_Shooting while running_3.png",
+          "name": "Diego_Shooting while running_3.png"
+        }
+      },
+      {
+        "file": "assets/Diego_Shooting while running_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Diego_Shooting while running_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 7/Diego/854047367420158d9783f1ce9438472db4b137bd31af818569ec937068657fcc_Diego_Shooting while running_4.png",
+          "name": "Diego_Shooting while running_4.png"
+        }
+      },
+      {
+        "file": "assets/Diego_Shooting while running_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Diego_Shooting while running_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 7/Diego/0c5b9d6d5ee271d82f9ed1964f6a7921cd11ce92b09f30c0ec745f98a9a2a5f7_Diego_Shooting while running_5.png",
+          "name": "Diego_Shooting while running_5.png"
+        }
+      },
+      {
+        "file": "assets/Diego_Shooting while running_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Diego_Shooting while running_6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 7/Diego/c07702eca50484c84fd3c6660495dbe1e065e584475907770684df79ef394944_Diego_Shooting while running_6.png",
+          "name": "Diego_Shooting while running_6.png"
+        }
+      },
+      {
+        "file": "assets/Diego_Shooting while standing_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Diego_Shooting while standing_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 7/Diego/42ebfbb77e5a40e139ee70f465e3f45a9e14815aa69906b4ee067e35d845ba1f_Diego_Shooting while standing_1.png",
+          "name": "Diego_Shooting while standing_1.png"
+        }
+      },
+      {
+        "file": "assets/Diego_Shooting while standing_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Diego_Shooting while standing_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 7/Diego/6b453c82ddc00fedfb24c0ae6c5be326d8b9729c3e157c48759df4326a911a11_Diego_Shooting while standing_2.png",
+          "name": "Diego_Shooting while standing_2.png"
+        }
+      },
+      {
+        "file": "assets/Diego_Shooting while standing_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Diego_Shooting while standing_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 7/Diego/2d61a7084c1b064fc98cc451ece14e8235e1ee2fdaf6a373d4456c22f2b40fdb_Diego_Shooting while standing_3.png",
+          "name": "Diego_Shooting while standing_3.png"
+        }
+      },
+      {
+        "file": "assets/Diego_Standing.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Diego_Standing.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 7/Diego/e788b8e16e976cdb1842dd3652b5c9f6ab8dfe89e658423e05def01ff6575930_Diego_Standing.png",
+          "name": "Diego_Standing.png"
+        }
+      },
+      {
+        "file": "assets/Geralt_Falling.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Geralt_Falling.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 3/Character/Geralt/77f83cc9472c698f03fa40c7b190a9b8b906b2b5bf90b38b0791aabf292ec375_Geralt_Falling.png",
+          "name": "Geralt_Falling.png"
+        }
+      },
+      {
+        "file": "assets/Geralt_Holding Object Falling.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Geralt_Holding Object Falling.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 3/Character/Geralt/5d269db46916739cc9e3aa7425a79f462cbafaa5e70a98eaf78692b92c9ea27a_Geralt_Holding Object Falling.png",
+          "name": "Geralt_Holding Object Falling.png"
+        }
+      },
+      {
+        "file": "assets/Geralt_Holding Object Jumping.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Geralt_Holding Object Jumping.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 3/Character/Geralt/14a61839609d4ce671d25cf6e3b0b539e34b4d87f0406e1632d2b2ea13fd4034_Geralt_Holding Object Jumping.png",
+          "name": "Geralt_Holding Object Jumping.png"
+        }
+      },
+      {
+        "file": "assets/Geralt_Holding Object Landed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Geralt_Holding Object Landed.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 3/Character/Geralt/933ef43407a524eb2a723736109140ecbaace65fd07b9af50e0b7e0ac735fe5f_Geralt_Holding Object Landed.png",
+          "name": "Geralt_Holding Object Landed.png"
+        }
+      },
+      {
+        "file": "assets/Geralt_Holding Object Standing.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Geralt_Holding Object Standing.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 3/Character/Geralt/b90bfcc260e381a581a14e472270f84ccf46c766e4a253c4043df33c1fdc925c_Geralt_Holding Object Standing.png",
+          "name": "Geralt_Holding Object Standing.png"
+        }
+      },
+      {
+        "file": "assets/Geralt_Holding Object Walking_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Geralt_Holding Object Walking_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 3/Character/Geralt/7169bc65a34f8682153bcef029542aa89508258da6d4709e2f87b63131f5e2bf_Geralt_Holding Object Walking_1.png",
+          "name": "Geralt_Holding Object Walking_1.png"
+        }
+      },
+      {
+        "file": "assets/Geralt_Holding Object Walking_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Geralt_Holding Object Walking_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 3/Character/Geralt/814b45f7921936177101fa7a3df6d2677fbd341acb5667bc6f87f7eebf5b390a_Geralt_Holding Object Walking_2.png",
+          "name": "Geralt_Holding Object Walking_2.png"
+        }
+      },
+      {
+        "file": "assets/Geralt_Holding Object Walking_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Geralt_Holding Object Walking_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 3/Character/Geralt/94eaf2b9999f8e04b3495f03fe37068936574c720849782c76e84c2f30f86045_Geralt_Holding Object Walking_3.png",
+          "name": "Geralt_Holding Object Walking_3.png"
+        }
+      },
+      {
+        "file": "assets/Geralt_Hurt.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Geralt_Hurt.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 3/Character/Geralt/10ae880a4cec4654399c4a23fea37c75f617eef8e774726a0c1f8417476f5125_Geralt_Hurt.png",
+          "name": "Geralt_Hurt.png"
+        }
+      },
+      {
+        "file": "assets/Geralt_Idle_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Geralt_Idle_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 3/Character/Geralt/7fdc2864aceb48a7dc554becec5be20d4ca3c7f560f1385228371d414025edc2_Geralt_Idle_1.png",
+          "name": "Geralt_Idle_1.png"
+        }
+      },
+      {
+        "file": "assets/Geralt_Idle_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Geralt_Idle_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 3/Character/Geralt/83a2c8cfd9ceb2c07b967b51aff60dbb6a692b35ae6615d4297f70df72d3a641_Geralt_Idle_2.png",
+          "name": "Geralt_Idle_2.png"
+        }
+      },
+      {
+        "file": "assets/Geralt_Jumping.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Geralt_Jumping.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 3/Character/Geralt/c596a4af3a40ae2d2d4f584454fcdf63869318c22569c70b312e377df25896d4_Geralt_Jumping.png",
+          "name": "Geralt_Jumping.png"
+        }
+      },
+      {
+        "file": "assets/Geralt_Looking Upward.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Geralt_Looking Upward.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 3/Character/Geralt/3c5afb06a07dd8f2dbea8e773256ab6cef92679b08068eb88f35aaaaa9833180_Geralt_Looking Upward.png",
+          "name": "Geralt_Looking Upward.png"
+        }
+      },
+      {
+        "file": "assets/Geralt_Miscellaneous Poses_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Geralt_Miscellaneous Poses_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 3/Character/Geralt/0e7a69ffce01f3ed7f50b2dad7e0cb738f290856d616faa6a025bd318c8bd944_Geralt_Miscellaneous Poses_1.png",
+          "name": "Geralt_Miscellaneous Poses_1.png"
+        }
+      },
+      {
+        "file": "assets/Geralt_Miscellaneous Poses_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Geralt_Miscellaneous Poses_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 3/Character/Geralt/fd0915cb94ba48e142e8ac428426a3d72bbf60a309e3d40536c5a84c8889d3fd_Geralt_Miscellaneous Poses_2.png",
+          "name": "Geralt_Miscellaneous Poses_2.png"
+        }
+      },
+      {
+        "file": "assets/Geralt_Miscellaneous Poses_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Geralt_Miscellaneous Poses_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 3/Character/Geralt/062712993480cf8f647adf0ccbe83658b5cf34dad89afb3cad5057184387d100_Geralt_Miscellaneous Poses_3.png",
+          "name": "Geralt_Miscellaneous Poses_3.png"
+        }
+      },
+      {
+        "file": "assets/Geralt_Miscellaneous Poses_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Geralt_Miscellaneous Poses_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 3/Character/Geralt/61a85eb394c181fea7a8998e7a337d3d95d9e010b56e13e051347a42f544b125_Geralt_Miscellaneous Poses_4.png",
+          "name": "Geralt_Miscellaneous Poses_4.png"
+        }
+      },
+      {
+        "file": "assets/Geralt_Miscellaneous Poses_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Geralt_Miscellaneous Poses_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 3/Character/Geralt/f685e6d8c6ced258bc50623530b745cf5c9c2668f55a961b1d1c6b93864b9c2e_Geralt_Miscellaneous Poses_5.png",
+          "name": "Geralt_Miscellaneous Poses_5.png"
+        }
+      },
+      {
+        "file": "assets/Geralt_Picking Up Object.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Geralt_Picking Up Object.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 3/Character/Geralt/db43246c52612b7df9077c8ea2045d65f953444422ba221f9c8652eb0f921220_Geralt_Picking Up Object.png",
+          "name": "Geralt_Picking Up Object.png"
+        }
+      },
+      {
+        "file": "assets/Geralt_Pushing Object_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Geralt_Pushing Object_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 3/Character/Geralt/00d4ad11a1464badbb68bd6e2d36f7fda656c52b84dab16db15c32e10fba5ac1_Geralt_Pushing Object_1.png",
+          "name": "Geralt_Pushing Object_1.png"
+        }
+      },
+      {
+        "file": "assets/Geralt_Pushing Object_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Geralt_Pushing Object_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 3/Character/Geralt/32c39c2279c665b21de18042309d2864cbc2e1b76b37a6121c6d29773bd3d53e_Geralt_Pushing Object_2.png",
+          "name": "Geralt_Pushing Object_2.png"
+        }
+      },
+      {
+        "file": "assets/Geralt_Pushing Object_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Geralt_Pushing Object_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 3/Character/Geralt/db82155aeb15f83d03a3830445b97e38821e575bc75ce64707ff987b0f607ae4_Geralt_Pushing Object_3.png",
+          "name": "Geralt_Pushing Object_3.png"
+        }
+      },
+      {
+        "file": "assets/Geralt_Running_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Geralt_Running_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 3/Character/Geralt/886b3014168224b25812e1e8f22ee620e8f4f502b758bc6b0e379fec58ba335d_Geralt_Running_1.png",
+          "name": "Geralt_Running_1.png"
+        }
+      },
+      {
+        "file": "assets/Geralt_Running_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Geralt_Running_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 3/Character/Geralt/e9c2603d888a38e2d6371f0c49d6174c2e4fa18a0dcb22fce430eaaf00c1daaa_Geralt_Running_2.png",
+          "name": "Geralt_Running_2.png"
+        }
+      },
+      {
+        "file": "assets/Geralt_Running_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Geralt_Running_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 3/Character/Geralt/5cf2a822e885081c9d73f487ba903b1d563f399a9a7d18a8ca32a1dd1188dcc3_Geralt_Running_3.png",
+          "name": "Geralt_Running_3.png"
+        }
+      },
+      {
+        "file": "assets/Geralt_Sleeping.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Geralt_Sleeping.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 3/Character/Geralt/b72a8a90b0ccb47d6032dd9cb341288a1c83ea57f480aebd067d6116afc48b5a_Geralt_Sleeping.png",
+          "name": "Geralt_Sleeping.png"
+        }
+      },
+      {
+        "file": "assets/Geralt_Touch Ground Landing.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Geralt_Touch Ground Landing.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 3/Character/Geralt/909eba04aba9a4e921226a3b45cf420d9fac943f3fd2b5fcc36d822a2e58383d_Geralt_Touch Ground Landing.png",
+          "name": "Geralt_Touch Ground Landing.png"
+        }
+      },
+      {
+        "file": "assets/Geralt_Turn Around Poses_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Geralt_Turn Around Poses_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 3/Character/Geralt/431f541be79574b75744a04dd542364257830200513466faab8c0ecb3d17ec7a_Geralt_Turn Around Poses_1.png",
+          "name": "Geralt_Turn Around Poses_1.png"
+        }
+      },
+      {
+        "file": "assets/Geralt_Turn Around Poses_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Geralt_Turn Around Poses_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 3/Character/Geralt/7fdc2864aceb48a7dc554becec5be20d4ca3c7f560f1385228371d414025edc2_Geralt_Turn Around Poses_2.png",
+          "name": "Geralt_Turn Around Poses_2.png"
+        }
+      },
+      {
+        "file": "assets/Geralt_Turn Around Poses_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Geralt_Turn Around Poses_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 3/Character/Geralt/0e4487cf48be4a3534b95f3f9836b28a695ffc74feddc3a93f4500912a5cd4cc_Geralt_Turn Around Poses_3.png",
+          "name": "Geralt_Turn Around Poses_3.png"
+        }
+      },
+      {
+        "file": "assets/Geralt_Turn Around Poses_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Geralt_Turn Around Poses_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 3/Character/Geralt/6b5d929f03429d16688a31e18569443654a6616a3e6bc4af702d9819cbd9b81f_Geralt_Turn Around Poses_4.png",
+          "name": "Geralt_Turn Around Poses_4.png"
+        }
+      },
+      {
+        "file": "assets/Geralt_Turn Around Poses_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Geralt_Turn Around Poses_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 3/Character/Geralt/841aeccd2a7737759165a1cd260c52df4d06f8897468e8120da3b3784d68c5f4_Geralt_Turn Around Poses_5.png",
+          "name": "Geralt_Turn Around Poses_5.png"
+        }
+      },
+      {
+        "file": "assets/Geralt_Turn Around Poses_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Geralt_Turn Around Poses_6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 3/Character/Geralt/5e3d542730051efb00fb3bf50d93d2fcde4360ef5330e3fc65bedfffaac990d7_Geralt_Turn Around Poses_6.png",
+          "name": "Geralt_Turn Around Poses_6.png"
+        }
+      },
+      {
+        "file": "assets/Geralt_Turn Around Poses_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Geralt_Turn Around Poses_7.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 3/Character/Geralt/278a5074da8a46a2a4a5d9189130bc2dc29d23aa998348b378c3dde7a724e781_Geralt_Turn Around Poses_7.png",
+          "name": "Geralt_Turn Around Poses_7.png"
+        }
+      },
+      {
+        "file": "assets/Geralt_Turn Around Poses_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Geralt_Turn Around Poses_8.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 3/Character/Geralt/9c2e1d203bbba70ab8cbcf3159556d78bb2ca269a5780170c8c5d927b140ec5b_Geralt_Turn Around Poses_8.png",
+          "name": "Geralt_Turn Around Poses_8.png"
+        }
+      },
+      {
+        "file": "assets/Geralt_Victory Pose.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Geralt_Victory Pose.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 3/Character/Geralt/9fa9df2df5c66252e55ee33d1b6962fb4ed1592b8e66eae949a3e7dfbee7d31e_Geralt_Victory Pose.png",
+          "name": "Geralt_Victory Pose.png"
+        }
+      },
+      {
+        "file": "assets/Thumbstick Boundary_Dark.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Thumbstick Boundary_Dark.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/Thumbstick/76612ccc5b6ccbcbbc9080fdc156700987bd8bc5766b6c5146a47825f5b913dd_Thumbstick Boundary_Dark.png",
+          "name": "Thumbstick Boundary_Dark.png"
+        }
+      },
+      {
+        "file": "assets/Thumbstick Boundary_Light.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Thumbstick Boundary_Light.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/Thumbstick/3d36fef02b3bf8e15fc1527d909660fa250c5a124abec783d5d5637fdec3b179_Thumbstick Boundary_Light.png",
+          "name": "Thumbstick Boundary_Light.png"
+        }
+      },
+      {
+        "file": "assets/Coin.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Coin.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GDevelop examples/Platformer/Level/802119165cd6e28ce73e7884d6f10a1e3ad4d4d4bdc91e5f4723528c8abc9d23_Coin.png",
+          "name": "Coin.png"
+        }
+      }
+    ],
+    "resourceFolders": []
+  },
+  "objects": [],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT"
+  },
+  "objectsGroups": [],
+  "variables": [],
+  "layouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/untitled-scene"
+    }
+  ],
+  "externalEvents": [],
+  "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/smoothcamera"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/timedbackandforthmovement"
+    }
+  ],
+  "externalLayouts": []
+}
