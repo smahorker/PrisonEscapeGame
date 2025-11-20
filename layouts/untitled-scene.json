@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 1.2121641972173665,
+    "zoomFactor": 0.8416428125373115,
     "windowMask": false,
     "selectedLayer": ""
   },
@@ -61,57 +61,6 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 76,
-      "keepRatio": true,
-      "layer": "",
-      "name": "industrial_platform_center",
-      "persistentUuid": "420b7387-26b9-433c-bd8e-7d2fb49e04df",
-      "width": 287,
-      "x": 0,
-      "y": 637,
-      "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 122,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Ladder",
-      "persistentUuid": "48d8a0e0-f1ff-4db3-9bf8-6bd97fcd7de7",
-      "width": 32,
-      "x": 250,
-      "y": 513,
-      "zOrder": 3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 38,
-      "keepRatio": true,
-      "layer": "",
-      "name": "industrial_platform_center",
-      "persistentUuid": "45254b68-2464-46ba-8417-428262663c3f",
-      "width": 287,
-      "x": 282,
-      "y": 517,
-      "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
       "height": 41,
       "keepRatio": true,
       "layer": "",
@@ -128,67 +77,16 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 720,
+      "depth": 1,
+      "height": 24,
       "keepRatio": true,
       "layer": "",
-      "name": "Boundary",
-      "opacity": 0,
-      "persistentUuid": "b66fc056-b298-44ef-b7ea-3ba1fefe1220",
-      "width": 10,
-      "x": -10,
-      "y": 0,
-      "zOrder": 0,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 720,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Boundary",
-      "opacity": 0,
-      "persistentUuid": "0bc7d8d3-9770-4342-877a-81e4ec73926e",
-      "width": 10,
-      "x": 1280,
-      "y": 0,
-      "zOrder": 0,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 10,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Boundary",
-      "opacity": 0,
-      "persistentUuid": "f775efcf-93f2-43b0-a9fe-b17d0048f5e0",
-      "width": 1280,
-      "x": 0,
-      "y": 0,
-      "zOrder": 0,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 10,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Boundary",
-      "opacity": 0,
-      "persistentUuid": "2c41c73e-d460-4701-af0f-1fdf1d52e6bf",
-      "width": 1280,
-      "x": 0,
-      "y": 720,
-      "zOrder": 0,
+      "name": "NewTiledSprite",
+      "persistentUuid": "052366f3-fcb6-433e-8eba-67865b44e633",
+      "width": 151,
+      "x": 268,
+      "y": 255,
+      "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -197,31 +95,49 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 16,
+      "height": 26,
       "keepRatio": true,
       "layer": "",
-      "name": "Coin",
-      "persistentUuid": "3af8f0ed-46ae-421e-8ff8-9a90b512bf3d",
-      "width": 16,
-      "x": 146,
-      "y": 617,
-      "zOrder": 5,
+      "name": "Spikes",
+      "persistentUuid": "36586de7-2a05-4950-aa10-21ad70abfde8",
+      "width": 86,
+      "x": 339,
+      "y": 490,
+      "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 268,
       "keepRatio": true,
-      "layer": "UI",
-      "name": "ScoreText",
-      "persistentUuid": "ff39bfa0-9c20-46d9-b1d0-b8e7409a0537",
-      "width": 0,
-      "x": 10,
-      "y": 10,
-      "zOrder": 0,
+      "layer": "",
+      "name": "NewTiledSprite2",
+      "persistentUuid": "329af955-4ac4-40c4-936a-d4804a466639",
+      "width": 857,
+      "x": 0,
+      "y": 689,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 879,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewTiledSprite2",
+      "persistentUuid": "5dd51162-34cf-4e9a-b2ef-9db01394a170",
+      "width": 174,
+      "x": -174,
+      "y": 76,
+      "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -238,13 +154,27 @@
       "effects": [],
       "behaviors": [
         {
-          "gravity": 1200,
-          "ignoreDefaultControls": true,
+          "name": "PlatformerCharacterAnimator",
+          "type": "PlatformerCharacterAnimator::PlatformerCharacterAnimator",
+          "EnableAnimationChanges": true,
+          "EnableHorizontalFlipping": true,
+          "IdleAnimationName": "Idle",
+          "RunAnimationName": "Run",
+          "JumpAnimationName": "Jump",
+          "FallAnimationName": "Jump",
+          "ClimbAnimationName": "Climb",
+          "PlatformerBehavior": "PlatformerObject",
+          "Animation": "Animation",
+          "Flippable": "Flippable"
+        },
+        {
           "isFolded": true,
-          "jumpSpeed": 600,
-          "jumpSustainTime": 0.8,
+          "jumpSpeed": 396,
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior",
+          "gravity": 1200,
+          "ignoreDefaultControls": true,
+          "jumpSustainTime": 0.8,
           "acceleration": 250,
           "canGoDownFromJumpthru": true,
           "canGrabPlatforms": false,
@@ -310,6 +240,10 @@
           "OldX": 9000.000000007454,
           "OldY": 9000.000000007454,
           "IsCalledManually": false
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
         }
       ],
       "animations": [
@@ -4699,8 +4633,9 @@
     },
     {
       "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "ce75b4d3db5313cd40588a712e5cb20dffce5d9187df56eefd8fb050ceea2330",
+      "assetStoreId": "5bf5c3cc6d7bbea91a40a0eae05e1312aeb57c0f735e401c7149fbe3057da5df",
       "name": "Coin",
+      "preScale": 2.41522945769824,
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -4717,7 +4652,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Coin.png",
+                  "image": "Remove Button_Blank.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4734,19 +4669,115 @@
                     [
                       {
                         "x": 0,
-                        "y": 0
+                        "y": 1
                       },
                       {
-                        "x": 28,
-                        "y": 0
+                        "x": 12,
+                        "y": 1
                       },
                       {
-                        "x": 28,
-                        "y": 35
+                        "x": 12,
+                        "y": 13
                       },
                       {
                         "x": 0,
-                        "y": 35
+                        "y": 13
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Blank",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Remove Button_Blank.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 1
+                      },
+                      {
+                        "x": 12,
+                        "y": 1
+                      },
+                      {
+                        "x": 12,
+                        "y": 13
+                      },
+                      {
+                        "x": 0,
+                        "y": 13
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Remove ",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Remove Button_Remove .png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 1
+                      },
+                      {
+                        "x": 12,
+                        "y": 1
+                      },
+                      {
+                        "x": 12,
+                        "y": 13
+                      },
+                      {
+                        "x": 0,
+                        "y": 13
                       }
                     ]
                   ]
@@ -4799,6 +4830,55 @@
         "lineHeight": 0,
         "color": "0;0;0"
       }
+    },
+    {
+      "assetStoreId": "",
+      "height": 16,
+      "name": "NewTiledSprite",
+      "texture": "Screenshot 2025-11-19 191723.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 16,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "canBeGrabbed": true,
+          "name": "Platform",
+          "platformType": "NormalPlatform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "yGrabOffset": 0
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "Spikes",
+      "texture": "Screenshot 2025-11-19193605.png2",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "NewTiledSprite2",
+      "texture": "Screenshot 2025-11-19 200721.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "canBeGrabbed": true,
+          "name": "Platform",
+          "platformType": "NormalPlatform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "yGrabOffset": 0
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -4824,6 +4904,15 @@
       },
       {
         "objectName": "ScoreText"
+      },
+      {
+        "objectName": "NewTiledSprite"
+      },
+      {
+        "objectName": "Spikes"
+      },
+      {
+        "objectName": "NewTiledSprite2"
       }
     ]
   },
@@ -4996,64 +5085,7 @@
       ]
     },
     {
-      "aiGeneratedEventId": "01K9XY9RXG8W7XB6KJNYARPPVZ",
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "Player",
-            "Coin",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Delete"
-          },
-          "parameters": [
-            "Coin",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
-            "Score",
-            "+",
-            "1"
-          ]
-        }
-      ]
-    },
-    {
-      "aiGeneratedEventId": "01K9XYA3C27X2DEXZTJAR74PD6",
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": [
-        {
-          "type": {
-            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-          },
-          "parameters": [
-            "ScoreText",
-            "Text",
-            "=",
-            "\"Score: \" + ToString(Score)"
-          ]
-        }
-      ]
-    },
-    {
-      "aiGeneratedEventId": "01KAEB07M12HJDGAET2Z7WG6ET",
+      "aiGeneratedEventId": "01KAEBM1X6WPP1H6M6NBVSVXNG",
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -5085,7 +5117,7 @@
       ]
     },
     {
-      "aiGeneratedEventId": "01KAEB78JYWP10WG58F5B0TKRA",
+      "aiGeneratedEventId": "01KAEBM1X6WPP1H6M6NBVSVXNG",
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -5131,7 +5163,7 @@
           "parameters": [
             "CalculatedJumpSpeed",
             "=",
-            "300 + (1200 - 300) / 2.0 * min(2.0, JumpChargeTime)"
+            "300 + (1200 - 300) * (min(2.0, JumpChargeTime) / 2.0)"
           ]
         },
         {
@@ -5274,6 +5306,156 @@
           ]
         }
       ]
+    },
+    {
+      "aiGeneratedEventId": "01KAFPQ8QY9RG5G89J7MA0Y3TG",
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Player",
+            "Spikes",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ActivateBehavior"
+          },
+          "parameters": [
+            "Player",
+            "PlatformerObject",
+            "no"
+          ]
+        },
+        {
+          "type": {
+            "value": "ResetObjectTimer"
+          },
+          "parameters": [
+            "Player",
+            "\"KnockbackTimer\""
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PosX"
+              },
+              "parameters": [
+                "Player",
+                ">",
+                "Spikes.X()"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectPositionXTween2"
+              },
+              "parameters": [
+                "Player",
+                "Tween",
+                "\"KnockbackX\"",
+                "Player.X() + 100",
+                "\"linear\"",
+                "0.3",
+                "no"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PosX"
+              },
+              "parameters": [
+                "Player",
+                "<=",
+                "Spikes.X()"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectPositionXTween2"
+              },
+              "parameters": [
+                "Player",
+                "Tween",
+                "\"KnockbackX\"",
+                "Player.X() - 100",
+                "\"linear\"",
+                "0.3",
+                "no"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "aiGeneratedEventId": "01KAFPQKQMHAJ3C2JCP1P8KYTS",
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CompareObjectTimer"
+          },
+          "parameters": [
+            "Player",
+            "\"KnockbackTimer\"",
+            ">",
+            "0.3"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ActivateBehavior"
+          },
+          "parameters": [
+            "Player",
+            "PlatformerObject",
+            "yes"
+          ]
+        },
+        {
+          "type": {
+            "value": "ResetObjectTimer"
+          },
+          "parameters": [
+            "Player",
+            "\"KnockbackTimer\""
+          ]
+        },
+        {
+          "type": {
+            "value": "ResetObjectTimer"
+          },
+          "parameters": [
+            "Player",
+            "\"JumpChargeTimer\""
+          ]
+        }
+      ]
     }
   ],
   "layers": [
@@ -5381,6 +5563,10 @@
       "type": "PlatformBehavior::PlatformBehavior"
     },
     {
+      "name": "PlatformerCharacterAnimator",
+      "type": "PlatformerCharacterAnimator::PlatformerCharacterAnimator"
+    },
+    {
       "name": "PlatformerObject",
       "type": "PlatformBehavior::PlatformerObjectBehavior"
     },
@@ -5397,8 +5583,16 @@
       "type": "SmoothCamera::SmoothCamera"
     },
     {
+      "name": "Text",
+      "type": "TextContainerCapability::TextContainerBehavior"
+    },
+    {
       "name": "TimedBackAndForthMirroredMovement",
       "type": "TimedBackAndForthMovement::TimedBackAndForthMirroredMovement"
+    },
+    {
+      "name": "Tween",
+      "type": "Tween::TweenBehavior"
     }
   ]
 }

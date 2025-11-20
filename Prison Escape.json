@@ -1974,6 +1974,118 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/GDevelop examples/Platformer/Level/802119165cd6e28ce73e7884d6f10a1e3ad4d4d4bdc91e5f4723528c8abc9d23_Coin.png",
           "name": "Coin.png"
         }
+      },
+      {
+        "file": "Screenshot 2025-11-19 190454.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Screenshot 2025-11-19 190454.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Screenshot_2025-11-19_190811-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Screenshot_2025-11-19_190811-removebg-preview.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Screenshot_2025-11-19_190811-removebg-preview2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Screenshot_2025-11-19_190811-removebg-preview2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Screenshot 2025-11-19 191723.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Screenshot 2025-11-19 191723.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Remove Button_Blank.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Remove Button_Blank.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Wesxdz Game Assets/skullcup/UI/d2dd6ae29a5a2555a15e7bcfd461794a0b38fa9174b5b853293e1c56852ef467_Remove Button_Blank.png",
+          "name": "Remove Button_Blank.png"
+        }
+      },
+      {
+        "file": "assets/Remove Button_Remove .png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Remove Button_Remove .png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Wesxdz Game Assets/skullcup/UI/b4134fb0735b99d0ee5d64fc0667ebe6c5301eee7ade99a7de53e892c68a52fe_Remove Button_Remove .png",
+          "name": "Remove Button_Remove .png"
+        }
+      },
+      {
+        "file": "Screenshot 2025-11-19 193404.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Screenshot 2025-11-19 193404.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Screenshot 2025-11-19 193604.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Screenshot 2025-11-19 193604.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Screenshot 2025-11-19 193604.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Screenshot 2025-11-19 193604.png2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Screenshot 2025-11-19193605.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Screenshot 2025-11-19193605.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Screenshot 2025-11-19193605.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Screenshot 2025-11-19193605.png2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Screenshot 2025-11-19193605.png3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Screenshot 2025-11-19193605.png3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Screenshot 2025-11-19 200721.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Screenshot 2025-11-19 200721.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -1999,6 +2111,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/timedbackandforthmovement"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/platformercharacteranimator"
     }
   ],
   "externalLayouts": []
