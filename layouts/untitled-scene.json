@@ -18,12 +18,22 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.8416428125373115,
+    "zoomFactor": 0.5653158055126322,
     "windowMask": false,
     "selectedLayer": ""
   },
   "objectsGroups": [],
   "variables": [
+    {
+      "name": "CameraState",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "TargetCameraY",
+      "type": "number",
+      "value": 0
+    },
     {
       "name": "CalculatedJumpSpeed",
       "type": "number",
@@ -50,8 +60,8 @@
       "name": "Player",
       "persistentUuid": "bec02967-202e-4f8f-8355-aa6d3c56b6d1",
       "width": 0,
-      "x": 37,
-      "y": 603,
+      "x": 247,
+      "y": 648,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -67,8 +77,8 @@
       "name": "Geralt",
       "persistentUuid": "e4081e7a-d7f4-404f-ba55-fbb668eca501",
       "width": 43,
-      "x": 439,
-      "y": 474,
+      "x": 773,
+      "y": -159,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -83,9 +93,9 @@
       "layer": "",
       "name": "NewTiledSprite",
       "persistentUuid": "052366f3-fcb6-433e-8eba-67865b44e633",
-      "width": 151,
-      "x": 268,
-      "y": 255,
+      "width": 196,
+      "x": 545,
+      "y": -67,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -101,8 +111,8 @@
       "name": "Spikes",
       "persistentUuid": "36586de7-2a05-4950-aa10-21ad70abfde8",
       "width": 86,
-      "x": 339,
-      "y": 490,
+      "x": 738,
+      "y": 430,
       "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
@@ -117,9 +127,9 @@
       "layer": "",
       "name": "NewTiledSprite2",
       "persistentUuid": "329af955-4ac4-40c4-936a-d4804a466639",
-      "width": 857,
-      "x": 0,
-      "y": 689,
+      "width": 1096,
+      "x": -7,
+      "y": 687,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
@@ -129,15 +139,150 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 879,
+      "height": 1205,
       "keepRatio": true,
       "layer": "",
       "name": "NewTiledSprite2",
       "persistentUuid": "5dd51162-34cf-4e9a-b2ef-9db01394a170",
-      "width": 174,
-      "x": -174,
-      "y": 76,
+      "width": 296,
+      "x": -296,
+      "y": -250,
       "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 381,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewTiledSprite3",
+      "persistentUuid": "d064c9b1-e1b4-4048-b9eb-a2b2cc517c54",
+      "width": 296,
+      "x": -261,
+      "y": -699,
+      "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "DebugText",
+      "persistentUuid": "524e07aa-4f54-44d1-b397-cfdbfcb7540d",
+      "width": 0,
+      "x": 10,
+      "y": 10,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 23,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewTiledSprite4",
+      "persistentUuid": "b8987bcd-c4ea-4ee1-9393-9a490659d2d5",
+      "width": 170,
+      "x": 318,
+      "y": 584,
+      "zOrder": 12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 180,
+      "customSize": true,
+      "depth": 1,
+      "height": 25,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewTiledSprite6",
+      "persistentUuid": "9b318696-5b00-4710-a0ab-aa8e3c304865",
+      "width": 25,
+      "x": 485,
+      "y": 583,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 270,
+      "customSize": true,
+      "depth": 1,
+      "height": 26,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewTiledSprite8",
+      "persistentUuid": "f693cd59-28bd-4cf0-8ef5-665d2bd8ec74",
+      "width": 24,
+      "x": 297,
+      "y": 582,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 23,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewTiledSprite4",
+      "persistentUuid": "e00bb7f8-b14b-4c03-9fbc-8c1b081dd63a",
+      "width": 170,
+      "x": 634,
+      "y": 455,
+      "zOrder": 12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 180,
+      "customSize": true,
+      "depth": 1,
+      "height": 25,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewTiledSprite6",
+      "persistentUuid": "50ffe968-3a69-4346-9a33-d984db13998a",
+      "width": 25,
+      "x": 801,
+      "y": 454,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 270,
+      "customSize": true,
+      "depth": 1,
+      "height": 26,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewTiledSprite8",
+      "persistentUuid": "91d0f43a-b7c4-40d6-96d6-2c06469da061",
+      "width": 24,
+      "x": 613,
+      "y": 453,
+      "zOrder": 14,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -4865,7 +5010,7 @@
       "assetStoreId": "",
       "height": 32,
       "name": "NewTiledSprite2",
-      "texture": "Screenshot 2025-11-19 200721.png",
+      "texture": "Screenshot 2025-11-19200722.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 32,
       "variables": [],
@@ -4879,6 +5024,158 @@
           "yGrabOffset": 0
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "NewTiledSprite3",
+      "texture": "Screenshot 2025-11-19 201200.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "DebugText",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Text",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Text",
+        "font": "",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 20,
+        "lineHeight": 0,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "2d701679df0e067e63e657f3a7de8b0c076c1c0db19e7c6070c186b28a611df2",
+      "height": 256,
+      "name": "CeilingMask",
+      "texture": "tiled_black space.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 256,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "NewTiledSprite4",
+      "texture": "Screenshot 2025-11-19 210159.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "canBeGrabbed": true,
+          "name": "Platform",
+          "platformType": "NormalPlatform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "yGrabOffset": 0
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "NewTiledSprite5",
+      "texture": "Screenshot 2025-11-19 210956.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "NewTiledSprite7",
+      "texture": "Screenshot 2025-11-19 200721.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": true,
+          "platformType": "NormalPlatform",
+          "yGrabOffset": 0
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "NewTiledSprite6",
+      "texture": "Screenshot 2025-11-19 212959.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "canBeGrabbed": true,
+          "name": "Platform",
+          "platformType": "NormalPlatform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "yGrabOffset": 0
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "NewTiledSprite8",
+      "texture": "Screenshot 2025-11-19 212959.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": true,
+          "platformType": "NormalPlatform",
+          "yGrabOffset": 0
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -4886,6 +5183,12 @@
     "children": [
       {
         "objectName": "Player"
+      },
+      {
+        "objectName": "NewTiledSprite4"
+      },
+      {
+        "objectName": "NewTiledSprite5"
       },
       {
         "objectName": "industrial_platform_center"
@@ -4913,6 +5216,24 @@
       },
       {
         "objectName": "NewTiledSprite2"
+      },
+      {
+        "objectName": "NewTiledSprite7"
+      },
+      {
+        "objectName": "NewTiledSprite3"
+      },
+      {
+        "objectName": "DebugText"
+      },
+      {
+        "objectName": "CeilingMask"
+      },
+      {
+        "objectName": "NewTiledSprite6"
+      },
+      {
+        "objectName": "NewTiledSprite8"
       }
     ]
   },
@@ -4988,7 +5309,7 @@
       ]
     },
     {
-      "aiGeneratedEventId": "01K9XY38KARBJJX6EMCYHMDNHD",
+      "aiGeneratedEventId": "01KAFT11TMHAPZJEER4NPEXB5Q",
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -5021,7 +5342,7 @@
             "Player",
             "",
             "",
-            ""
+            "0"
           ]
         },
         {
@@ -5453,6 +5774,24 @@
           "parameters": [
             "Player",
             "\"JumpChargeTimer\""
+          ]
+        }
+      ]
+    },
+    {
+      "aiGeneratedEventId": "01KAFSNTPE3SW2E14YQWSX4V8Q",
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "DebugText",
+            "Text",
+            "=",
+            "\"Player Y: \" + ToString(Player.Y()) + NewLine() + \"Camera Y: \" + ToString(CameraY(\"\", 0)) + NewLine() + \"Game Resolution Height: \" + ToString(SceneWindowHeight())"
           ]
         }
       ]

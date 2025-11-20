@@ -2082,8 +2082,124 @@
       {
         "file": "Screenshot 2025-11-19 200721.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"Screenshot 2025-11-19 200721.png\",\"extension\":\".png\",\"pskl\":{}}",
         "name": "Screenshot 2025-11-19 200721.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "../../Downloads/Screenshot 2025-11-19 201200.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\Downloads\\Screenshot 2025-11-19 201200.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Screenshot 2025-11-19 201200.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Screenshot 2025-11-19 201200.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tiled_black space.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tiled_black space.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/Backgrounds/82e24c48618660952ceb6cede5c9917ceeb4371c9e971f4a49fb43689d045d89_tiled_black space.png",
+          "name": "tiled_black space.png"
+        }
+      },
+      {
+        "file": "Screenshot 2025-11-19 210159.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Screenshot 2025-11-19 210159.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Screenshot 2025-11-19 210956.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Screenshot 2025-11-19 210956.png\",\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Screenshot 2025-11-19 210956.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Screenshot 2025-11-19193606.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Screenshot 2025-11-19193606.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Screenshot_2025-11-19_190811-removebg-preview3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Screenshot_2025-11-19_190811-removebg-preview3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Screenshot 2025-11-19191724.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Screenshot 2025-11-19191724.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Screenshot 2025-11-19193607.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Screenshot 2025-11-19193607.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Screenshot 2025-11-19193405.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Screenshot 2025-11-19193405.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Screenshot 2025-11-19193608.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Screenshot 2025-11-19193608.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Screenshot 2025-11-19200722.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Screenshot 2025-11-19200722.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Screenshot 2025-11-19 200721.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Screenshot 2025-11-19 200721.png2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Screenshot 2025-11-19 212959.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Screenshot 2025-11-19 212959.png\",\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Screenshot 2025-11-19 212959.png",
         "smoothed": true,
         "userAdded": false
       }
