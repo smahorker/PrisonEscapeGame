@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.5117784035210186,
+    "zoomFactor": 0.49508400737488983,
     "windowMask": false,
     "selectedLayer": ""
   },
@@ -60,8 +60,8 @@
       "name": "Player",
       "persistentUuid": "bec02967-202e-4f8f-8355-aa6d3c56b6d1",
       "width": 0,
-      "x": 874,
-      "y": 19,
+      "x": 218,
+      "y": 542,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -94,8 +94,8 @@
       "name": "NewTiledSprite",
       "persistentUuid": "052366f3-fcb6-433e-8eba-67865b44e633",
       "width": 196,
-      "x": 523,
-      "y": -375,
+      "x": 457,
+      "y": -250,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -111,8 +111,8 @@
       "name": "Spikes",
       "persistentUuid": "36586de7-2a05-4950-aa10-21ad70abfde8",
       "width": 86,
-      "x": 298,
-      "y": 69,
+      "x": 248,
+      "y": 134,
       "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
@@ -139,14 +139,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 1301,
+      "height": 1161,
       "keepRatio": true,
       "layer": "",
       "name": "NewTiledSprite2",
       "persistentUuid": "5dd51162-34cf-4e9a-b2ef-9db01394a170",
       "width": 296,
       "x": -296,
-      "y": -346,
+      "y": -206,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -163,7 +163,7 @@
       "persistentUuid": "d064c9b1-e1b4-4048-b9eb-a2b2cc517c54",
       "width": 296,
       "x": -296,
-      "y": -726,
+      "y": -587,
       "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
@@ -246,8 +246,8 @@
       "name": "NewTiledSprite4",
       "persistentUuid": "e00bb7f8-b14b-4c03-9fbc-8c1b081dd63a",
       "width": 170,
-      "x": 567,
-      "y": 485,
+      "x": 519,
+      "y": 486,
       "zOrder": 12,
       "numberProperties": [],
       "stringProperties": [],
@@ -263,8 +263,8 @@
       "name": "NewTiledSprite6",
       "persistentUuid": "50ffe968-3a69-4346-9a33-d984db13998a",
       "width": 25,
-      "x": 734,
-      "y": 484,
+      "x": 686,
+      "y": 485,
       "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
@@ -280,8 +280,8 @@
       "name": "NewTiledSprite8",
       "persistentUuid": "91d0f43a-b7c4-40d6-96d6-2c06469da061",
       "width": 24,
-      "x": 546,
-      "y": 483,
+      "x": 498,
+      "y": 484,
       "zOrder": 14,
       "numberProperties": [],
       "stringProperties": [],
@@ -342,14 +342,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 1029,
+      "height": 896,
       "keepRatio": true,
       "layer": "",
       "name": "NewTiledSprite9",
       "persistentUuid": "74e5e89f-ec15-4317-aeef-55fe927a4258",
-      "width": 1122,
-      "x": -2,
-      "y": -344,
+      "width": 1164,
+      "x": -22,
+      "y": -205,
       "zOrder": -10,
       "numberProperties": [],
       "stringProperties": [],
@@ -365,8 +365,8 @@
       "name": "NewTiledSprite4",
       "persistentUuid": "3bbff015-613a-494a-9eab-ad03292d424a",
       "width": 170,
-      "x": 819,
-      "y": 265,
+      "x": 686,
+      "y": 319,
       "zOrder": 12,
       "numberProperties": [],
       "stringProperties": [],
@@ -382,8 +382,8 @@
       "name": "NewTiledSprite6",
       "persistentUuid": "688e9605-fd75-4132-a066-aa0c247ef1f1",
       "width": 25,
-      "x": 986,
-      "y": 264,
+      "x": 853,
+      "y": 318,
       "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
@@ -399,8 +399,8 @@
       "name": "NewTiledSprite8",
       "persistentUuid": "3bd72516-f88c-454d-bad2-0d2343d5c028",
       "width": 24,
-      "x": 798,
-      "y": 263,
+      "x": 665,
+      "y": 317,
       "zOrder": 14,
       "numberProperties": [],
       "stringProperties": [],
@@ -416,8 +416,8 @@
       "name": "NewTiledSprite4",
       "persistentUuid": "438c5f25-0194-4bb5-ab18-ba06672bfef1",
       "width": 170,
-      "x": 317,
-      "y": 93,
+      "x": 267,
+      "y": 158,
       "zOrder": 12,
       "numberProperties": [],
       "stringProperties": [],
@@ -433,8 +433,8 @@
       "name": "NewTiledSprite6",
       "persistentUuid": "54c0e629-421c-4ca6-adee-8e3fa4261306",
       "width": 25,
-      "x": 484,
-      "y": 92,
+      "x": 434,
+      "y": 157,
       "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
@@ -450,8 +450,8 @@
       "name": "NewTiledSprite8",
       "persistentUuid": "916c078c-61b3-4204-999a-6f84fcf7c77a",
       "width": 24,
-      "x": 296,
-      "y": 91,
+      "x": 246,
+      "y": 156,
       "zOrder": 14,
       "numberProperties": [],
       "stringProperties": [],
@@ -467,8 +467,8 @@
       "name": "NewTiledSprite4",
       "persistentUuid": "5b5ab77a-bae5-411e-a847-706e9d007109",
       "width": 170,
-      "x": 898,
-      "y": 50,
+      "x": 839,
+      "y": 157,
       "zOrder": 12,
       "numberProperties": [],
       "stringProperties": [],
@@ -484,8 +484,8 @@
       "name": "NewTiledSprite6",
       "persistentUuid": "1c864d84-4946-4169-a329-65c5c4d00256",
       "width": 25,
-      "x": 1065,
-      "y": 49,
+      "x": 1006,
+      "y": 156,
       "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
@@ -501,8 +501,8 @@
       "name": "NewTiledSprite8",
       "persistentUuid": "5da6ac14-867c-4301-ad03-b1c4ac71e092",
       "width": 24,
-      "x": 877,
-      "y": 48,
+      "x": 818,
+      "y": 155,
       "zOrder": 14,
       "numberProperties": [],
       "stringProperties": [],
@@ -518,7 +518,7 @@
       "name": "Spikes",
       "persistentUuid": "cb0e3f5d-048c-4c56-ace6-f05e3c0bd867",
       "width": 86,
-      "x": 678,
+      "x": 630,
       "y": 459,
       "zOrder": 8,
       "numberProperties": [],
@@ -529,14 +529,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 1295,
+      "height": 1160,
       "keepRatio": true,
       "layer": "",
       "name": "NewTiledSprite2",
       "persistentUuid": "fcf2ce40-2196-458a-929e-f0b73ad93381",
       "width": 296,
       "x": 1119,
-      "y": -341,
+      "y": -206,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -552,8 +552,8 @@
       "name": "NewTiledSprite4",
       "persistentUuid": "38bc89d0-8b26-4f3d-ad10-3cd727d5f067",
       "width": 170,
-      "x": 609,
-      "y": -73,
+      "x": 551,
+      "y": -17,
       "zOrder": 12,
       "numberProperties": [],
       "stringProperties": [],
@@ -569,8 +569,8 @@
       "name": "NewTiledSprite6",
       "persistentUuid": "fb3db893-a853-4af9-8299-5791ad6b7edd",
       "width": 25,
-      "x": 776,
-      "y": -74,
+      "x": 718,
+      "y": -18,
       "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
@@ -586,8 +586,8 @@
       "name": "NewTiledSprite8",
       "persistentUuid": "11a6e8bd-3122-45fb-ad40-20e74bf77ace",
       "width": 24,
-      "x": 588,
-      "y": -75,
+      "x": 530,
+      "y": -19,
       "zOrder": 14,
       "numberProperties": [],
       "stringProperties": [],
@@ -603,9 +603,58 @@
       "name": "Spikes",
       "persistentUuid": "3b48260e-e7e5-4e84-a096-5ed07b718edf",
       "width": 86,
-      "x": 628,
-      "y": -93,
+      "x": 570,
+      "y": -37,
       "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Orc",
+      "persistentUuid": "d33c88f0-da65-4c3c-a3e1-5f35620141b9",
+      "width": 0,
+      "x": 299,
+      "y": 542,
+      "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Orc",
+      "persistentUuid": "c5baa92a-d36b-4d76-a043-c24bb17f1490",
+      "width": 0,
+      "x": 893,
+      "y": 126,
+      "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 381,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewTiledSprite3",
+      "persistentUuid": "9c3f5f08-4080-4e4e-bafd-bdc8aca91241",
+      "width": 296,
+      "x": 1119,
+      "y": -587,
+      "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -5510,6 +5559,906 @@
       "variables": [],
       "effects": [],
       "behaviors": []
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": []
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "1c8077a43e64049f6d2a9075a81b9b6b6be5c1e85dac5e0bb2b48dac0e539eec",
+      "name": "Orc",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "TimedBackAndForthMirroredMovement",
+          "type": "TimedBackAndForthMovement::TimedBackAndForthMirroredMovement",
+          "Flippable": "Flippable",
+          "Vertical": false,
+          "Speed": 50,
+          "Distance": 70,
+          "Timeout": 2,
+          "StartPosition": 0,
+          "LastPosition": 0,
+          "Timecheck": 0
+        }
+      ],
+      "animations": [
+        {
+          "name": "Idle",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.1429,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Orc_Idle_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 20,
+                        "y": 3
+                      },
+                      {
+                        "x": 52,
+                        "y": 3
+                      },
+                      {
+                        "x": 52,
+                        "y": 32
+                      },
+                      {
+                        "x": 20,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Orc_Idle_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 20,
+                        "y": 3
+                      },
+                      {
+                        "x": 52,
+                        "y": 3
+                      },
+                      {
+                        "x": 52,
+                        "y": 32
+                      },
+                      {
+                        "x": 20,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Orc_Idle_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 20,
+                        "y": 3
+                      },
+                      {
+                        "x": 52,
+                        "y": 3
+                      },
+                      {
+                        "x": 52,
+                        "y": 32
+                      },
+                      {
+                        "x": 20,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Orc_Idle_4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 20,
+                        "y": 3
+                      },
+                      {
+                        "x": 52,
+                        "y": 3
+                      },
+                      {
+                        "x": 52,
+                        "y": 32
+                      },
+                      {
+                        "x": 20,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Orc_Idle_5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 20,
+                        "y": 3
+                      },
+                      {
+                        "x": 52,
+                        "y": 3
+                      },
+                      {
+                        "x": 52,
+                        "y": 32
+                      },
+                      {
+                        "x": 20,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Orc_Idle_6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 20,
+                        "y": 3
+                      },
+                      {
+                        "x": 52,
+                        "y": 3
+                      },
+                      {
+                        "x": 52,
+                        "y": 32
+                      },
+                      {
+                        "x": 20,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Orc_Idle_7.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 20,
+                        "y": 3
+                      },
+                      {
+                        "x": 52,
+                        "y": 3
+                      },
+                      {
+                        "x": 52,
+                        "y": 32
+                      },
+                      {
+                        "x": 20,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Hurt",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Orc_Hurt.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 20,
+                        "y": 3
+                      },
+                      {
+                        "x": 52,
+                        "y": 3
+                      },
+                      {
+                        "x": 52,
+                        "y": 32
+                      },
+                      {
+                        "x": 20,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Blink",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Orc_Blink.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 20,
+                        "y": 3
+                      },
+                      {
+                        "x": 52,
+                        "y": 3
+                      },
+                      {
+                        "x": 52,
+                        "y": 32
+                      },
+                      {
+                        "x": 20,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Falling",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Orc_Falling.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 20,
+                        "y": 3
+                      },
+                      {
+                        "x": 52,
+                        "y": 3
+                      },
+                      {
+                        "x": 52,
+                        "y": 32
+                      },
+                      {
+                        "x": 20,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Spear Jab",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.1667,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Orc_Spear Jab_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 20,
+                        "y": 3
+                      },
+                      {
+                        "x": 52,
+                        "y": 3
+                      },
+                      {
+                        "x": 52,
+                        "y": 32
+                      },
+                      {
+                        "x": 20,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Orc_Spear Jab_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 20,
+                        "y": 3
+                      },
+                      {
+                        "x": 52,
+                        "y": 3
+                      },
+                      {
+                        "x": 52,
+                        "y": 32
+                      },
+                      {
+                        "x": 20,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Orc_Spear Jab_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 20,
+                        "y": 3
+                      },
+                      {
+                        "x": 52,
+                        "y": 3
+                      },
+                      {
+                        "x": 52,
+                        "y": 32
+                      },
+                      {
+                        "x": 20,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Orc_Spear Jab_4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 20,
+                        "y": 3
+                      },
+                      {
+                        "x": 52,
+                        "y": 3
+                      },
+                      {
+                        "x": 52,
+                        "y": 32
+                      },
+                      {
+                        "x": 20,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Orc_Spear Jab_5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 20,
+                        "y": 3
+                      },
+                      {
+                        "x": 52,
+                        "y": 3
+                      },
+                      {
+                        "x": 52,
+                        "y": 32
+                      },
+                      {
+                        "x": 20,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Orc_Spear Jab_6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 20,
+                        "y": 3
+                      },
+                      {
+                        "x": 52,
+                        "y": 3
+                      },
+                      {
+                        "x": 52,
+                        "y": 32
+                      },
+                      {
+                        "x": 20,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Walking",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.1667,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Orc_Walking_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 20,
+                        "y": 3
+                      },
+                      {
+                        "x": 52,
+                        "y": 3
+                      },
+                      {
+                        "x": 52,
+                        "y": 32
+                      },
+                      {
+                        "x": 20,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Orc_Walking_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 20,
+                        "y": 3
+                      },
+                      {
+                        "x": 52,
+                        "y": 3
+                      },
+                      {
+                        "x": 52,
+                        "y": 32
+                      },
+                      {
+                        "x": 20,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Orc_Walking_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 20,
+                        "y": 3
+                      },
+                      {
+                        "x": 52,
+                        "y": 3
+                      },
+                      {
+                        "x": 52,
+                        "y": 32
+                      },
+                      {
+                        "x": 20,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Orc_Walking_4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 20,
+                        "y": 3
+                      },
+                      {
+                        "x": 52,
+                        "y": 3
+                      },
+                      {
+                        "x": 52,
+                        "y": 32
+                      },
+                      {
+                        "x": 20,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Orc_Walking_5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 20,
+                        "y": 3
+                      },
+                      {
+                        "x": 52,
+                        "y": 3
+                      },
+                      {
+                        "x": 52,
+                        "y": 32
+                      },
+                      {
+                        "x": 20,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Orc_Walking_6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 20,
+                        "y": 3
+                      },
+                      {
+                        "x": 52,
+                        "y": 3
+                      },
+                      {
+                        "x": 52,
+                        "y": 32
+                      },
+                      {
+                        "x": 20,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -5571,6 +6520,12 @@
       },
       {
         "objectName": "NewTiledSprite9"
+      },
+      {
+        "objectName": "NewSprite"
+      },
+      {
+        "objectName": "Orc"
       }
     ]
   },
@@ -6001,6 +6956,18 @@
             "Player",
             "\"KnockbackTimer\""
           ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "New sound effect",
+            "",
+            "",
+            ""
+          ]
         }
       ],
       "events": [
@@ -6129,6 +7096,121 @@
             "Text",
             "=",
             "\"Player Y: \" + ToString(Player.Y()) + NewLine() + \"Camera Y: \" + ToString(CameraY(\"\", 0)) + NewLine() + \"Game Resolution Height: \" + ToString(SceneWindowHeight())"
+          ]
+        }
+      ]
+    },
+    {
+      "aiGeneratedEventId": "01KAFZDNZ7W4S1QZ43HSSPYJBN",
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Player",
+            "Orc",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ActivateBehavior"
+          },
+          "parameters": [
+            "Player",
+            "PlatformerObject",
+            "no"
+          ]
+        },
+        {
+          "type": {
+            "value": "ResetObjectTimer"
+          },
+          "parameters": [
+            "Player",
+            "\"KnockbackTimer\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "New sound effect2",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PosX"
+              },
+              "parameters": [
+                "Player",
+                ">",
+                "Orc.X()"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectPositionXTween2"
+              },
+              "parameters": [
+                "Player",
+                "Tween",
+                "\"KnockbackX\"",
+                "Player.X() + 200",
+                "\"linear\"",
+                "0.5",
+                "no"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PosX"
+              },
+              "parameters": [
+                "Player",
+                "<=",
+                "Orc.X()"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectPositionXTween2"
+              },
+              "parameters": [
+                "Player",
+                "Tween",
+                "\"KnockbackX\"",
+                "Player.X() - 200",
+                "\"linear\"",
+                "0.5",
+                "no"
+              ]
+            }
           ]
         }
       ]
