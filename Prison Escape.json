@@ -2628,6 +2628,234 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Breakable Physics/Obstacle/Glass/fd6c405b87dd93a4012f40b24a4a4ee0b9dcc1c30c23f5c8bd73e115ab7f03ce_Long rectangle glass_Perfect.png",
           "name": "Long rectangle glass_Perfect.png"
         }
+      },
+      {
+        "file": "assets/Fairy_Charging Magic Flying_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fairy_Charging Magic Flying_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Character/Fairy/f11ff2dbe01b42c28adec120fe4aa4151c7ace70106614589d4cef99c88938a5_Fairy_Charging Magic Flying_1.png",
+          "name": "Fairy_Charging Magic Flying_1.png"
+        }
+      },
+      {
+        "file": "assets/Fairy_Charging Magic Flying_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fairy_Charging Magic Flying_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Character/Fairy/1a68fc2552d29276f9b3f52fa9210095caec0315c8dc81c2cb631c9b00ca6ff3_Fairy_Charging Magic Flying_2.png",
+          "name": "Fairy_Charging Magic Flying_2.png"
+        }
+      },
+      {
+        "file": "assets/Fairy_Charging Magic Flying_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fairy_Charging Magic Flying_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Character/Fairy/05bee3c66f92e6d7746e19793cc18187c927c5013b55fbfae5ab4c469f9ef8f3_Fairy_Charging Magic Flying_3.png",
+          "name": "Fairy_Charging Magic Flying_3.png"
+        }
+      },
+      {
+        "file": "assets/Fairy_Charging Magic Flying_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fairy_Charging Magic Flying_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Character/Fairy/d391f603832892afc01299b9a6f2e043ef866147cc0f84c94d8a30d1ba1c702d_Fairy_Charging Magic Flying_4.png",
+          "name": "Fairy_Charging Magic Flying_4.png"
+        }
+      },
+      {
+        "file": "assets/Fairy_Flying Forward Movement_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fairy_Flying Forward Movement_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Character/Fairy/bcf6a46fe8634f771e1a928f0266f7aa4ff178dded187d2f71a9861a76faf12a_Fairy_Flying Forward Movement_1.png",
+          "name": "Fairy_Flying Forward Movement_1.png"
+        }
+      },
+      {
+        "file": "assets/Fairy_Flying Forward Movement_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fairy_Flying Forward Movement_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Character/Fairy/6d37774b5ad7f7ad28ed10b66214cd5304c7a7f71fc37c4c241813ac82deb354_Fairy_Flying Forward Movement_2.png",
+          "name": "Fairy_Flying Forward Movement_2.png"
+        }
+      },
+      {
+        "file": "assets/Fairy_Flying Forward Movement_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fairy_Flying Forward Movement_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Character/Fairy/eaf653909377806eead3f3631d5654c88f66634d4a7ef354e493eb2f344c17bb_Fairy_Flying Forward Movement_3.png",
+          "name": "Fairy_Flying Forward Movement_3.png"
+        }
+      },
+      {
+        "file": "assets/Fairy_Flying Forward Movement_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fairy_Flying Forward Movement_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Character/Fairy/cb9b535254c1cfb852bbbf12d9c05060fa44d4c7f82d962ea7e586dc8c1bf3c5_Fairy_Flying Forward Movement_4.png",
+          "name": "Fairy_Flying Forward Movement_4.png"
+        }
+      },
+      {
+        "file": "assets/Fairy_Hurt.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fairy_Hurt.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Character/Fairy/44eba79e37934397c82bbd1c47ca980d48d1f810ae9e1948a7096af2d5e09996_Fairy_Hurt.png",
+          "name": "Fairy_Hurt.png"
+        }
+      },
+      {
+        "file": "assets/Fairy_Idle Flying_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fairy_Idle Flying_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Character/Fairy/be81cc6e26938319b12e1976323f78f38466f7145d83c4464107fe23c43831f3_Fairy_Idle Flying_1.png",
+          "name": "Fairy_Idle Flying_1.png"
+        }
+      },
+      {
+        "file": "assets/Fairy_Idle Flying_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fairy_Idle Flying_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Character/Fairy/728ed69c96398786b8bac1a926485db7182528ac45cdb205f6322c336a2c9f01_Fairy_Idle Flying_2.png",
+          "name": "Fairy_Idle Flying_2.png"
+        }
+      },
+      {
+        "file": "assets/Fairy_Idle Flying_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fairy_Idle Flying_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Character/Fairy/61adf79d20b065327cefccfae21870f1db0982a2e3d62393e0628c3f4abe8b0d_Fairy_Idle Flying_3.png",
+          "name": "Fairy_Idle Flying_3.png"
+        }
+      },
+      {
+        "file": "assets/Fairy_Idle Flying_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fairy_Idle Flying_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Character/Fairy/87317f3c5b5f5667904037509c06e82fd9e99509476ba793e9c3766d0fa66c31_Fairy_Idle Flying_4.png",
+          "name": "Fairy_Idle Flying_4.png"
+        }
+      },
+      {
+        "file": "assets/Fairy_Idle Ground_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fairy_Idle Ground_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Character/Fairy/5fe7d1d83d46df228bfd20bd7f9a26dbbd56d45f92afa029b1fa658b98b64880_Fairy_Idle Ground_1.png",
+          "name": "Fairy_Idle Ground_1.png"
+        }
+      },
+      {
+        "file": "assets/Fairy_Idle Ground_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fairy_Idle Ground_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Character/Fairy/4ee4021e6e3ae4632c357304ea0a6f7ddffbf3822cbd1f1c291d8323597530a4_Fairy_Idle Ground_2.png",
+          "name": "Fairy_Idle Ground_2.png"
+        }
+      },
+      {
+        "file": "assets/Fairy_Magic Attack Release_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fairy_Magic Attack Release_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Character/Fairy/ea2716aeb35c4af0de151cc722c408e604565e4ea2a1e913d62335896b17b669_Fairy_Magic Attack Release_1.png",
+          "name": "Fairy_Magic Attack Release_1.png"
+        }
+      },
+      {
+        "file": "assets/Fairy_Magic Attack Release_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fairy_Magic Attack Release_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Character/Fairy/c753b400ad242cb347cec2119c153895eea7a71eaeae3ce8bb302cc896f55b7a_Fairy_Magic Attack Release_2.png",
+          "name": "Fairy_Magic Attack Release_2.png"
+        }
+      },
+      {
+        "file": "assets/Fairy_Magic Attack Release_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fairy_Magic Attack Release_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Character/Fairy/c4b4222c4e6e2ef8225e76d716ba524c9b15a4803e389fe6ee9cf9143f0f1ba0_Fairy_Magic Attack Release_3.png",
+          "name": "Fairy_Magic Attack Release_3.png"
+        }
+      },
+      {
+        "file": "assets/Fairy_Magic Attack Release_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fairy_Magic Attack Release_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Character/Fairy/cdafc62a492ae3611c02a7947fe294d116e0757e7f80a2a3747a9c1b6069ad61_Fairy_Magic Attack Release_4.png",
+          "name": "Fairy_Magic Attack Release_4.png"
+        }
       }
     ],
     "resourceFolders": []

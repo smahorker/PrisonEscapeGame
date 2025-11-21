@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.3553434558816997,
+    "zoomFactor": 0.5117784035210203,
     "windowMask": false,
     "selectedLayer": ""
   },
@@ -60,8 +60,8 @@
       "name": "Player",
       "persistentUuid": "bec02967-202e-4f8f-8355-aa6d3c56b6d1",
       "width": 0,
-      "x": 515,
-      "y": -285,
+      "x": 357,
+      "y": 543,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -722,6 +722,23 @@
       "x": -301,
       "y": -589,
       "zOrder": -20,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 55,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Fairy",
+      "persistentUuid": "f479b720-4ec9-4913-9572-4fae1706a6ae",
+      "width": 55,
+      "x": 574,
+      "y": 639,
+      "zOrder": 18,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -6762,6 +6779,793 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "e867c55db8fe3f2ab05b8c6328d72e340e4e4fc06a6338f60f97af3b86e24ef4",
+      "name": "Fairy",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "PreviousX",
+          "type": "number",
+          "value": 0
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "TimedBackAndForthMirroredMovement",
+          "type": "TimedBackAndForthMovement::TimedBackAndForthMirroredMovement",
+          "Flippable": "Flippable",
+          "Vertical": false,
+          "Speed": 50,
+          "Distance": 70,
+          "Timeout": 2,
+          "StartPosition": 0,
+          "LastPosition": 0,
+          "Timecheck": 0
+        }
+      ],
+      "animations": [
+        {
+          "name": "Hurt",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Fairy_Hurt.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8,
+                        "y": 7
+                      },
+                      {
+                        "x": 24,
+                        "y": 7
+                      },
+                      {
+                        "x": 24,
+                        "y": 23
+                      },
+                      {
+                        "x": 8,
+                        "y": 23
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Charging Magic Flying",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.25,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Fairy_Charging Magic Flying_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8,
+                        "y": 7
+                      },
+                      {
+                        "x": 24,
+                        "y": 7
+                      },
+                      {
+                        "x": 24,
+                        "y": 23
+                      },
+                      {
+                        "x": 8,
+                        "y": 23
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Fairy_Charging Magic Flying_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8,
+                        "y": 7
+                      },
+                      {
+                        "x": 24,
+                        "y": 7
+                      },
+                      {
+                        "x": 24,
+                        "y": 23
+                      },
+                      {
+                        "x": 8,
+                        "y": 23
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Fairy_Charging Magic Flying_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8,
+                        "y": 7
+                      },
+                      {
+                        "x": 24,
+                        "y": 7
+                      },
+                      {
+                        "x": 24,
+                        "y": 23
+                      },
+                      {
+                        "x": 8,
+                        "y": 23
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Fairy_Charging Magic Flying_4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8,
+                        "y": 7
+                      },
+                      {
+                        "x": 24,
+                        "y": 7
+                      },
+                      {
+                        "x": 24,
+                        "y": 23
+                      },
+                      {
+                        "x": 8,
+                        "y": 23
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Flying Forward Movement",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.25,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Fairy_Flying Forward Movement_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8,
+                        "y": 7
+                      },
+                      {
+                        "x": 24,
+                        "y": 7
+                      },
+                      {
+                        "x": 24,
+                        "y": 23
+                      },
+                      {
+                        "x": 8,
+                        "y": 23
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Fairy_Flying Forward Movement_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8,
+                        "y": 7
+                      },
+                      {
+                        "x": 24,
+                        "y": 7
+                      },
+                      {
+                        "x": 24,
+                        "y": 23
+                      },
+                      {
+                        "x": 8,
+                        "y": 23
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Fairy_Flying Forward Movement_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8,
+                        "y": 7
+                      },
+                      {
+                        "x": 24,
+                        "y": 7
+                      },
+                      {
+                        "x": 24,
+                        "y": 23
+                      },
+                      {
+                        "x": 8,
+                        "y": 23
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Fairy_Flying Forward Movement_4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8,
+                        "y": 7
+                      },
+                      {
+                        "x": 24,
+                        "y": 7
+                      },
+                      {
+                        "x": 24,
+                        "y": 23
+                      },
+                      {
+                        "x": 8,
+                        "y": 23
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Idle Flying",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.25,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Fairy_Idle Flying_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8,
+                        "y": 7
+                      },
+                      {
+                        "x": 24,
+                        "y": 7
+                      },
+                      {
+                        "x": 24,
+                        "y": 23
+                      },
+                      {
+                        "x": 8,
+                        "y": 23
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Fairy_Idle Flying_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8,
+                        "y": 7
+                      },
+                      {
+                        "x": 24,
+                        "y": 7
+                      },
+                      {
+                        "x": 24,
+                        "y": 23
+                      },
+                      {
+                        "x": 8,
+                        "y": 23
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Fairy_Idle Flying_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8,
+                        "y": 7
+                      },
+                      {
+                        "x": 24,
+                        "y": 7
+                      },
+                      {
+                        "x": 24,
+                        "y": 23
+                      },
+                      {
+                        "x": 8,
+                        "y": 23
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Fairy_Idle Flying_4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8,
+                        "y": 7
+                      },
+                      {
+                        "x": 24,
+                        "y": 7
+                      },
+                      {
+                        "x": 24,
+                        "y": 23
+                      },
+                      {
+                        "x": 8,
+                        "y": 23
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Idle Ground",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.5,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Fairy_Idle Ground_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8,
+                        "y": 7
+                      },
+                      {
+                        "x": 24,
+                        "y": 7
+                      },
+                      {
+                        "x": 24,
+                        "y": 23
+                      },
+                      {
+                        "x": 8,
+                        "y": 23
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Fairy_Idle Ground_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8,
+                        "y": 7
+                      },
+                      {
+                        "x": 24,
+                        "y": 7
+                      },
+                      {
+                        "x": 24,
+                        "y": 23
+                      },
+                      {
+                        "x": 8,
+                        "y": 23
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Magic Attack Release",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.25,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Fairy_Magic Attack Release_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8,
+                        "y": 7
+                      },
+                      {
+                        "x": 24,
+                        "y": 7
+                      },
+                      {
+                        "x": 24,
+                        "y": 23
+                      },
+                      {
+                        "x": 8,
+                        "y": 23
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Fairy_Magic Attack Release_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8,
+                        "y": 7
+                      },
+                      {
+                        "x": 24,
+                        "y": 7
+                      },
+                      {
+                        "x": 24,
+                        "y": 23
+                      },
+                      {
+                        "x": 8,
+                        "y": 23
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Fairy_Magic Attack Release_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8,
+                        "y": 7
+                      },
+                      {
+                        "x": 24,
+                        "y": 7
+                      },
+                      {
+                        "x": 24,
+                        "y": 23
+                      },
+                      {
+                        "x": 8,
+                        "y": 23
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Fairy_Magic Attack Release_4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8,
+                        "y": 7
+                      },
+                      {
+                        "x": 24,
+                        "y": 7
+                      },
+                      {
+                        "x": 24,
+                        "y": 23
+                      },
+                      {
+                        "x": 8,
+                        "y": 23
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -6844,6 +7648,9 @@
       },
       {
         "objectName": "HPDrain"
+      },
+      {
+        "objectName": "Fairy"
       }
     ]
   },
@@ -6889,7 +7696,7 @@
       ]
     },
     {
-      "aiGeneratedEventId": "01KAHYHZQQQJV1M859158VGPR4",
+      "aiGeneratedEventId": "01KAHZKJ7B19V8ZMHBEQZ5ATQW",
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -6902,6 +7709,15 @@
         }
       ],
       "actions": [
+        {
+          "type": {
+            "value": "ChangeLayer"
+          },
+          "parameters": [
+            "Boundary",
+            "\"UI\""
+          ]
+        },
         {
           "type": {
             "value": "ZoomCamera"
@@ -6980,7 +7796,7 @@
             "New sound effect4",
             "",
             "",
-            "no"
+            ""
           ]
         },
         {
@@ -7003,6 +7819,17 @@
             "=",
             "Player.Health::Health()",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberObjectVariable"
+          },
+          "parameters": [
+            "Fairy",
+            "PreviousX",
+            "=",
+            "Fairy.X()"
           ]
         }
       ]
@@ -7569,7 +8396,7 @@
       ]
     },
     {
-      "aiGeneratedEventId": "01KAHYJS7TXBWRAEN9CTJN97P4",
+      "aiGeneratedEventId": "01KAHZKJ7B19V8ZMHBEQZ5ATQW",
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
       "actions": [
@@ -7660,6 +8487,46 @@
           "parameters": [
             "",
             "\"HPDrainTimer\""
+          ]
+        }
+      ]
+    },
+    {
+      "aiGeneratedEventId": "01KAHZH3397TCP2T5GAY5EJP2T",
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Player",
+            "Fairy",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Health::Health::Heal"
+          },
+          "parameters": [
+            "Player",
+            "Health",
+            "10",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "Fairy",
+            ""
           ]
         }
       ]
