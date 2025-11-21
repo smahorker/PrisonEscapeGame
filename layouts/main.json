@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.6455105703311492,
+    "zoomFactor": 0.3553434558816997,
     "windowMask": false,
     "selectedLayer": ""
   },
@@ -60,8 +60,8 @@
       "name": "Player",
       "persistentUuid": "bec02967-202e-4f8f-8355-aa6d3c56b6d1",
       "width": 0,
-      "x": 503,
-      "y": 651,
+      "x": 515,
+      "y": -285,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -602,7 +602,7 @@
       "name": "Orc",
       "persistentUuid": "d33c88f0-da65-4c3c-a3e1-5f35620141b9",
       "width": 0,
-      "x": 299,
+      "x": 273,
       "y": 542,
       "zOrder": 15,
       "numberProperties": [],
@@ -680,15 +680,48 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 359,
+      "height": 391,
       "keepRatio": true,
       "layer": "",
       "name": "NewTiledSprite12",
       "persistentUuid": "c7ed0305-ed17-4367-a30d-39a271dafb2a",
       "width": 1122,
       "x": 0,
-      "y": -554,
+      "y": -586,
       "zOrder": -10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 30,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "PlayerHPBar",
+      "persistentUuid": "578cbc1c-aaf4-4340-bc46-47cf64ad02b6",
+      "width": 200,
+      "x": 20,
+      "y": 20,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 377,
+      "keepRatio": true,
+      "layer": "",
+      "name": "HPDrain",
+      "persistentUuid": "02234057-159d-4ebc-b3c6-88b1be89875e",
+      "width": 1718,
+      "x": -301,
+      "y": -589,
+      "zOrder": -20,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -704,6 +737,34 @@
       "variables": [],
       "effects": [],
       "behaviors": [
+        {
+          "name": "Health",
+          "type": "Health::Health",
+          "Health": 100,
+          "CurrentHealth": 0,
+          "MaxHealth": 100,
+          "DamageCooldown": 1,
+          "AllowOverHealing": false,
+          "IsHealthJustDamaged": false,
+          "DamageToBeApplied": 0,
+          "HitAtLeastOnce": false,
+          "ChanceToDodge": 0,
+          "IsJustDodged": false,
+          "HealToBeApplied": 0,
+          "HealthRegenRate": 0,
+          "HealthRegenDelay": 0,
+          "IsJustHealed": false,
+          "CurrentShieldPoints": 2.0247e-320,
+          "MaxShieldPoints": 0,
+          "ShieldDuration": 5,
+          "ShieldRegenRate": 0,
+          "BlockExcessDamage": false,
+          "ShieldRegenDelay": 0,
+          "IsShieldJustDamaged": false,
+          "ShieldDamageTaken": 2.0247e-320,
+          "FlatDamageReduction": 0,
+          "PercentDamageReduction": 0
+        },
         {
           "name": "PlatformerCharacterAnimator",
           "type": "PlatformerCharacterAnimator::PlatformerCharacterAnimator",
@@ -6526,6 +6587,181 @@
       "variables": [],
       "effects": [],
       "behaviors": []
+    },
+    {
+      "assetStoreId": "930bf94bbc2de9caf90c8783178b6328c44197e7524e28af8ba54858e289e00a",
+      "name": "PlayerHPBar",
+      "type": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
+      "variant": "Health Bar Horizontal",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "PreviousHighValueDuration": 1,
+        "InitialValue": 4,
+        "MaxValue": 8,
+        "BarTopPadding": 0,
+        "BarLeftPadding": 0,
+        "BarBottomPadding": 0,
+        "BarRightPadding": 0,
+        "ShowLabel": false
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "5db49ff9d190f89dc2a3329ff8017db83ac8ea13550c6ecbd679702b332b070d",
+      "name": "HPDrain",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Broken",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Long rectangle glass_Broken.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 70,
+                        "y": 0
+                      },
+                      {
+                        "x": 70,
+                        "y": 220
+                      },
+                      {
+                        "x": 0,
+                        "y": 220
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Damaged",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Long rectangle glass_Damaged.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 70,
+                        "y": 0
+                      },
+                      {
+                        "x": 70,
+                        "y": 220
+                      },
+                      {
+                        "x": 0,
+                        "y": 220
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Perfect",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Long rectangle glass_Perfect.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 70,
+                        "y": 0
+                      },
+                      {
+                        "x": 70,
+                        "y": 220
+                      },
+                      {
+                        "x": 0,
+                        "y": 220
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -6602,6 +6838,12 @@
       },
       {
         "objectName": "NewTiledSprite12"
+      },
+      {
+        "objectName": "PlayerHPBar"
+      },
+      {
+        "objectName": "HPDrain"
       }
     ]
   },
@@ -6647,7 +6889,7 @@
       ]
     },
     {
-      "aiGeneratedEventId": "01KAFT11TMHAPZJEER4NPEXB5Q",
+      "aiGeneratedEventId": "01KAHYHZQQQJV1M859158VGPR4",
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -6667,18 +6909,6 @@
           "parameters": [
             "",
             "2",
-            "",
-            "0"
-          ]
-        },
-        {
-          "type": {
-            "value": "CentreCamera"
-          },
-          "parameters": [
-            "",
-            "Player",
-            "",
             "",
             "0"
           ]
@@ -6743,13 +6973,35 @@
         },
         {
           "type": {
-            "value": "PlayMusic"
+            "value": "PlaySound"
           },
           "parameters": [
             "",
-            "Moonlight Over Baldur’s Gate – Peaceful Fantasy City Music for Sleep, Study & DnD [LTIbaqUFI_c].mp3",
-            "yes",
+            "New sound effect4",
             "",
+            "",
+            "no"
+          ]
+        },
+        {
+          "type": {
+            "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetMaxValue"
+          },
+          "parameters": [
+            "PlayerHPBar",
+            "=",
+            "Player.Health::MaxHealth()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+          },
+          "parameters": [
+            "PlayerHPBar",
+            "=",
+            "Player.Health::Health()",
             ""
           ]
         }
@@ -6979,7 +7231,7 @@
       ]
     },
     {
-      "aiGeneratedEventId": "01KAFPQ8QY9RG5G89J7MA0Y3TG",
+      "aiGeneratedEventId": "01KAHYRWZ2SKYVWM28NW0AN8QX",
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -6996,6 +7248,19 @@
         }
       ],
       "actions": [
+        {
+          "type": {
+            "value": "Health::Health::Hit"
+          },
+          "parameters": [
+            "Player",
+            "Health",
+            "5",
+            "yes",
+            "yes",
+            ""
+          ]
+        },
         {
           "type": {
             "value": "ActivateBehavior"
@@ -7159,7 +7424,7 @@
       ]
     },
     {
-      "aiGeneratedEventId": "01KAFZDNZ7W4S1QZ43HSSPYJBN",
+      "aiGeneratedEventId": "01KAHYMC549311E4J0CHZT6F39",
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -7176,6 +7441,19 @@
         }
       ],
       "actions": [
+        {
+          "type": {
+            "value": "Health::Health::Hit"
+          },
+          "parameters": [
+            "Player",
+            "Health",
+            "5",
+            "yes",
+            "yes",
+            ""
+          ]
+        },
         {
           "type": {
             "value": "ActivateBehavior"
@@ -7269,6 +7547,119 @@
                 "no"
               ]
             }
+          ]
+        }
+      ]
+    },
+    {
+      "aiGeneratedEventId": "01KAHYHZQQQJV1M859158VGPR4",
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "SmoothCamera::SmoothCamera::MoveCameraCloser"
+          },
+          "parameters": [
+            "Player",
+            "SmoothCamera",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "aiGeneratedEventId": "01KAHYJS7TXBWRAEN9CTJN97P4",
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+          },
+          "parameters": [
+            "PlayerHPBar",
+            "=",
+            "Player.Health::Health()",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "aiGeneratedEventId": "01KAHZ0F3M0BMRC85JFHFW1P80",
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"HPDrainTimer\""
+          ]
+        }
+      ]
+    },
+    {
+      "aiGeneratedEventId": "01KAHZ0F3M0BMRC85JFHFW1P80",
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Player",
+            "HPDrain",
+            "",
+            "",
+            "no"
+          ]
+        },
+        {
+          "type": {
+            "value": "CompareTimer"
+          },
+          "parameters": [
+            "",
+            "\"HPDrainTimer\"",
+            ">",
+            "1"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Health::Health::Hit"
+          },
+          "parameters": [
+            "Player",
+            "Health",
+            "1",
+            "yes",
+            "yes",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"HPDrainTimer\""
           ]
         }
       ]
@@ -7369,6 +7760,10 @@
     {
       "name": "Flippable",
       "type": "FlippableCapability::FlippableBehavior"
+    },
+    {
+      "name": "Health",
+      "type": "Health::Health"
     },
     {
       "name": "Opacity",
