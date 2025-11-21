@@ -2494,6 +2494,58 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/New sound effect3.wav",
+        "kind": "audio",
+        "metadata": "{\"extension\":\".wav\",\"jfxr\":{\"data\":\"{\\\"_version\\\":1,\\\"_name\\\":\\\"Explosion 2\\\",\\\"_locked\\\":[],\\\"sampleRate\\\":44100,\\\"attack\\\":0,\\\"sustain\\\":0.05,\\\"sustainPunch\\\":0,\\\"decay\\\":0.35000000000000003,\\\"tremoloDepth\\\":4,\\\"tremoloFrequency\\\":50,\\\"frequency\\\":2900,\\\"frequencySweep\\\":-2600,\\\"frequencyDeltaSweep\\\":-1300,\\\"repeatFrequency\\\":0,\\\"frequencyJump1Onset\\\":33,\\\"frequencyJump1Amount\\\":0,\\\"frequencyJump2Onset\\\":66,\\\"frequencyJump2Amount\\\":0,\\\"harmonics\\\":0,\\\"harmonicsFalloff\\\":0.5,\\\"waveform\\\":\\\"pinknoise\\\",\\\"interpolateNoise\\\":true,\\\"vibratoDepth\\\":0,\\\"vibratoFrequency\\\":10,\\\"squareDuty\\\":50,\\\"squareDutySweep\\\":0,\\\"flangerOffset\\\":0,\\\"flangerOffsetSweep\\\":0,\\\"bitCrush\\\":16,\\\"bitCrushSweep\\\":0,\\\"lowPassCutoff\\\":22050,\\\"lowPassCutoffSweep\\\":0,\\\"highPassCutoff\\\":0,\\\"highPassCutoffSweep\\\":0,\\\"compression\\\":1,\\\"normalization\\\":true,\\\"amplification\\\":100}\",\"name\":\"New sound effect\"}}",
+        "name": "New sound effect3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Screenshot_2025-11-19_190811-removebg-preview4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Screenshot_2025-11-19_190811-removebg-preview4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Screenshot 2025-11-19191725.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Screenshot 2025-11-19191725.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Screenshot 2025-11-19191726.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Screenshot 2025-11-19191726.png\",\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Screenshot 2025-11-19191726.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Screenshot 2025-11-19 233251.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Screenshot 2025-11-19 233251.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Moonlight Over Baldur’s Gate – Peaceful Fantasy City Music for Sleep, Study & DnD [LTIbaqUFI_c].mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Moonlight Over Baldur’s Gate – Peaceful Fantasy City Music for Sleep, Study & DnD [LTIbaqUFI_c].mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -2507,7 +2559,7 @@
   "layouts": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/untitled-scene"
+      "referenceTo": "/layouts/main"
     }
   ],
   "externalEvents": [],

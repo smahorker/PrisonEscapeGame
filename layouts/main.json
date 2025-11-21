@@ -1,8 +1,8 @@
 {
   "b": 209,
   "disableInputWhenNotFocused": true,
-  "mangledName": "Untitled_32scene",
-  "name": "Untitled scene",
+  "mangledName": "Main",
+  "name": "Main",
   "r": 209,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.49508400737488983,
+    "zoomFactor": 0.6455105703311492,
     "windowMask": false,
     "selectedLayer": ""
   },
@@ -42,7 +42,7 @@
     {
       "name": "JumpChargeTime",
       "type": "number",
-      "value": 0
+      "value": 1
     },
     {
       "name": "Score",
@@ -60,8 +60,8 @@
       "name": "Player",
       "persistentUuid": "bec02967-202e-4f8f-8355-aa6d3c56b6d1",
       "width": 0,
-      "x": 218,
-      "y": 542,
+      "x": 503,
+      "y": 651,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -71,31 +71,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 41,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Geralt",
-      "persistentUuid": "e4081e7a-d7f4-404f-ba55-fbb668eca501",
-      "width": 43,
-      "x": -375,
-      "y": -144,
-      "zOrder": 4,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 24,
+      "height": 22,
       "keepRatio": true,
       "layer": "",
       "name": "NewTiledSprite",
       "persistentUuid": "052366f3-fcb6-433e-8eba-67865b44e633",
       "width": 196,
       "x": 457,
-      "y": -250,
+      "y": -236,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -552,8 +535,8 @@
       "name": "NewTiledSprite4",
       "persistentUuid": "38bc89d0-8b26-4f3d-ad10-3cd727d5f067",
       "width": 170,
-      "x": 551,
-      "y": -17,
+      "x": 544,
+      "y": 18,
       "zOrder": 12,
       "numberProperties": [],
       "stringProperties": [],
@@ -569,8 +552,8 @@
       "name": "NewTiledSprite6",
       "persistentUuid": "fb3db893-a853-4af9-8299-5791ad6b7edd",
       "width": 25,
-      "x": 718,
-      "y": -18,
+      "x": 711,
+      "y": 17,
       "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
@@ -586,8 +569,8 @@
       "name": "NewTiledSprite8",
       "persistentUuid": "11a6e8bd-3122-45fb-ad40-20e74bf77ace",
       "width": 24,
-      "x": 530,
-      "y": -19,
+      "x": 523,
+      "y": 16,
       "zOrder": 14,
       "numberProperties": [],
       "stringProperties": [],
@@ -603,8 +586,8 @@
       "name": "Spikes",
       "persistentUuid": "3b48260e-e7e5-4e84-a096-5ed07b718edf",
       "width": 86,
-      "x": 570,
-      "y": -37,
+      "x": 563,
+      "y": -2,
       "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
@@ -655,6 +638,57 @@
       "x": 1119,
       "y": -587,
       "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 266,
+      "customSize": true,
+      "depth": 1,
+      "height": 23,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewTiledSprite10",
+      "persistentUuid": "9e901796-4adf-4e3b-970c-3463847a7210",
+      "width": 21,
+      "x": 436,
+      "y": -236,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 180,
+      "customSize": true,
+      "depth": 1,
+      "height": 23,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewTiledSprite11",
+      "persistentUuid": "b39b205b-ae0d-4a7d-a41e-1b6f59ba7e5c",
+      "width": 21,
+      "x": 651,
+      "y": -236,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 359,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewTiledSprite12",
+      "persistentUuid": "c7ed0305-ed17-4367-a30d-39a271dafb2a",
+      "width": 1122,
+      "x": 0,
+      "y": -554,
+      "zOrder": -10,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -6459,6 +6493,39 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "NewTiledSprite10",
+      "texture": "Screenshot 2025-11-19191726.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "NewTiledSprite11",
+      "texture": "Screenshot 2025-11-19191726.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "NewTiledSprite12",
+      "texture": "Screenshot 2025-11-19 233251.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
     }
   ],
   "objectsFolderStructure": {
@@ -6526,6 +6593,15 @@
       },
       {
         "objectName": "Orc"
+      },
+      {
+        "objectName": "NewTiledSprite10"
+      },
+      {
+        "objectName": "NewTiledSprite11"
+      },
+      {
+        "objectName": "NewTiledSprite12"
       }
     ]
   },
@@ -6539,36 +6615,6 @@
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
       "actions": []
-    },
-    {
-      "aiGeneratedEventId": "01K9XWPWYMRWDMKSAN58PKY950",
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "Player",
-            "Geralt",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Scene"
-          },
-          "parameters": [
-            "",
-            "\"Untitled scene\"",
-            "no"
-          ]
-        }
-      ]
     },
     {
       "aiGeneratedEventId": "01K9XWXKMWRF4VVHY3VMRV81FR",
@@ -6594,7 +6640,7 @@
           },
           "parameters": [
             "",
-            "\"Untitled scene\"",
+            "\"Main\"",
             "yes"
           ]
         }
@@ -6693,6 +6739,18 @@
             "\"RedTint\"",
             "\"blue\"",
             "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlayMusic"
+          },
+          "parameters": [
+            "",
+            "Moonlight Over Baldur’s Gate – Peaceful Fantasy City Music for Sleep, Study & DnD [LTIbaqUFI_c].mp3",
+            "yes",
+            "",
+            ""
           ]
         }
       ]
