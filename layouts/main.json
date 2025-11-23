@@ -25,6 +25,11 @@
   "objectsGroups": [],
   "variables": [
     {
+      "name": "JumpInitiatedFromGround",
+      "type": "boolean",
+      "value": false
+    },
+    {
       "name": "CameraState",
       "type": "number",
       "value": 0
@@ -60,8 +65,8 @@
       "name": "Player",
       "persistentUuid": "bec02967-202e-4f8f-8355-aa6d3c56b6d1",
       "width": 0,
-      "x": 357,
-      "y": 543,
+      "x": 423,
+      "y": 646,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -7789,18 +7794,6 @@
         },
         {
           "type": {
-            "value": "PlaySound"
-          },
-          "parameters": [
-            "",
-            "New sound effect4",
-            "",
-            "",
-            ""
-          ]
-        },
-        {
-          "type": {
             "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetMaxValue"
           },
           "parameters": [
@@ -7830,6 +7823,18 @@
             "PreviousX",
             "=",
             "Fairy.X()"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "background audio game4.mp3",
+            "yes",
+            "40",
+            ""
           ]
         }
       ]
@@ -7864,10 +7869,39 @@
             "\"JumpChargeTimer\""
           ]
         }
+      ],
+      "events": [
+        {
+          "aiGeneratedEventId": "01KAJ09D53SN9CZ17FSX457JR0",
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PlatformBehavior::IsOnFloor"
+              },
+              "parameters": [
+                "Player",
+                "PlatformerObject"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "JumpInitiatedFromGround",
+                "True",
+                "true"
+              ]
+            }
+          ]
+        }
       ]
     },
     {
-      "aiGeneratedEventId": "01KAEBM1X6WPP1H6M6NBVSVXNG",
+      "aiGeneratedEventId": "01KAJ0GCN784TECHK23ZDAQJY2",
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -7934,6 +7968,18 @@
           "parameters": [
             "Player",
             "PlatformerObject"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "pixel-jump-319166.mp3",
+            "no",
+            "20",
+            "1"
           ]
         },
         {
@@ -8115,7 +8161,7 @@
             "",
             "New sound effect",
             "",
-            "",
+            "10",
             ""
           ]
         }
@@ -8306,9 +8352,9 @@
           },
           "parameters": [
             "",
-            "New sound effect2",
+            "small-monster-attack-195712.mp3",
             "",
-            "",
+            "10",
             ""
           ]
         }
@@ -8527,6 +8573,102 @@
           "parameters": [
             "Fairy",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "fairysound.mp3",
+            "",
+            "20",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "aiGeneratedEventId": "01KAJ0025FM67BFB3EP8TDWF0S",
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"FootstepTimer\""
+          ]
+        }
+      ]
+    },
+    {
+      "aiGeneratedEventId": "01KAJ0025FM67BFB3EP8TDWF0S",
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PlatformBehavior::IsOnFloor"
+          },
+          "parameters": [
+            "Player",
+            "PlatformerObject"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::CompareNumbers"
+          },
+          "parameters": [
+            "abs(Player.PlatformerObject::CurrentSpeed())",
+            ">",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "CompareTimer"
+          },
+          "parameters": [
+            "",
+            "\"FootstepTimer\"",
+            ">",
+            "0.475"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "st2-footstep-sfx-323055.mp3",
+            "no",
+            "10",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"FootstepTimer\""
           ]
         }
       ]

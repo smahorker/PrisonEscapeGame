@@ -2856,6 +2856,106 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Character/Fairy/cdafc62a492ae3611c02a7947fe294d116e0757e7f80a2a3747a9c1b6069ad61_Fairy_Magic Attack Release_4.png",
           "name": "Fairy_Magic Attack Release_4.png"
         }
+      },
+      {
+        "file": "st2-footstep-sfx-323055.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "st2-footstep-sfx-323055.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "pixel-jump-319167.mp3",
+        "kind": "audio",
+        "metadata": "{\"localFilePath\":\"pixel-jump-319167.mp3\",\"extension\":\".wav\",\"jfxr\":{\"data\":\"{\\\"_version\\\":1,\\\"_name\\\":\\\"Random 5\\\",\\\"_locked\\\":[],\\\"sampleRate\\\":44100,\\\"attack\\\":0,\\\"sustain\\\":0.84,\\\"sustainPunch\\\":0,\\\"decay\\\":4.41,\\\"tremoloDepth\\\":41,\\\"tremoloFrequency\\\":679,\\\"frequency\\\":6100,\\\"frequencySweep\\\":4500,\\\"frequencyDeltaSweep\\\":-1900,\\\"repeatFrequency\\\":82,\\\"frequencyJump1Onset\\\":33,\\\"frequencyJump1Amount\\\":0,\\\"frequencyJump2Onset\\\":66,\\\"frequencyJump2Amount\\\":0,\\\"harmonics\\\":0,\\\"harmonicsFalloff\\\":0.5,\\\"waveform\\\":\\\"pinknoise\\\",\\\"interpolateNoise\\\":false,\\\"vibratoDepth\\\":0,\\\"vibratoFrequency\\\":10,\\\"squareDuty\\\":50,\\\"squareDutySweep\\\":0,\\\"flangerOffset\\\":0,\\\"flangerOffsetSweep\\\":0,\\\"bitCrush\\\":9,\\\"bitCrushSweep\\\":0,\\\"lowPassCutoff\\\":1200,\\\"lowPassCutoffSweep\\\":0,\\\"highPassCutoff\\\":0,\\\"highPassCutoffSweep\\\":8200,\\\"compression\\\":0.9,\\\"normalization\\\":true,\\\"amplification\\\":100}\",\"name\":\"pixel-jump-319167.mp3\"}}",
+        "name": "pixel-jump-319167.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/New sound effect5.wav",
+        "kind": "audio",
+        "metadata": "{\"extension\":\".wav\",\"jfxr\":{\"data\":\"{\\\"_version\\\":1,\\\"_name\\\":\\\"Random 5\\\",\\\"_locked\\\":[],\\\"sampleRate\\\":44100,\\\"attack\\\":0,\\\"sustain\\\":0.84,\\\"sustainPunch\\\":0,\\\"decay\\\":4.41,\\\"tremoloDepth\\\":41,\\\"tremoloFrequency\\\":679,\\\"frequency\\\":6100,\\\"frequencySweep\\\":4500,\\\"frequencyDeltaSweep\\\":-1900,\\\"repeatFrequency\\\":82,\\\"frequencyJump1Onset\\\":33,\\\"frequencyJump1Amount\\\":0,\\\"frequencyJump2Onset\\\":66,\\\"frequencyJump2Amount\\\":0,\\\"harmonics\\\":0,\\\"harmonicsFalloff\\\":0.5,\\\"waveform\\\":\\\"pinknoise\\\",\\\"interpolateNoise\\\":false,\\\"vibratoDepth\\\":0,\\\"vibratoFrequency\\\":10,\\\"squareDuty\\\":50,\\\"squareDutySweep\\\":0,\\\"flangerOffset\\\":0,\\\"flangerOffsetSweep\\\":0,\\\"bitCrush\\\":9,\\\"bitCrushSweep\\\":0,\\\"lowPassCutoff\\\":1200,\\\"lowPassCutoffSweep\\\":0,\\\"highPassCutoff\\\":0,\\\"highPassCutoffSweep\\\":8200,\\\"compression\\\":0.9,\\\"normalization\\\":true,\\\"amplification\\\":100}\",\"name\":\"New sound effect\"}}",
+        "name": "New sound effect5",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "pixel-jump-319166.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "pixel-jump-319166.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "small-monster-attack-195712.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "small-monster-attack-195712.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "fairysound.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "fairysound.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "background audio game.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "background audio game.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "background audio game2.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "background audio game2.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "background audio game3.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "background audio game3.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "background audio game4.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "background audio game4.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
