@@ -2956,6 +2956,474 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/Magic Scroll 1_No Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Magic Scroll 1_No Shadow.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icons/New Icons/6e7249ba4aff2122da7545f243b0acfc5eb0aeee515ec6a6a608d0b8d40b8556_Magic Scroll 1_No Shadow.png",
+          "name": "Magic Scroll 1_No Shadow.png"
+        }
+      },
+      {
+        "file": "assets/Magic Scroll 1_Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Magic Scroll 1_Shadow.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icons/New Icons/06c1863276299f175037a1c581cf8fbecf89686177e58fa8ac3c7a2e60bb5083_Magic Scroll 1_Shadow.png",
+          "name": "Magic Scroll 1_Shadow.png"
+        }
+      },
+      {
+        "file": "assets/Player_Attack_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Player_Attack_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Player/c5378a56e6b5e8270a732a6ddd437e593610518a37ebf3c940baa787f5d675e3_Player_Attack_1.png",
+          "name": "Player_Attack_1.png"
+        }
+      },
+      {
+        "file": "assets/Player_Attack_10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Player_Attack_10.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Player/60bd0a53eea38c325c98c8816764bea815c8b11262b4988742f4d87cdddf9e7e_Player_Attack_10.png",
+          "name": "Player_Attack_10.png"
+        }
+      },
+      {
+        "file": "assets/Player_Attack_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Player_Attack_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Player/85c229f0ab72d8e3d757cad17a29eaacd9a6faeb003baf59c28ab8dd018d47ab_Player_Attack_2.png",
+          "name": "Player_Attack_2.png"
+        }
+      },
+      {
+        "file": "assets/Player_Attack_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Player_Attack_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Player/6b5795272877ce09fb7ec4abb280bfd11f53e6df929d6299a7bb6ee07ecad4e7_Player_Attack_3.png",
+          "name": "Player_Attack_3.png"
+        }
+      },
+      {
+        "file": "assets/Player_Attack_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Player_Attack_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Player/6b5795272877ce09fb7ec4abb280bfd11f53e6df929d6299a7bb6ee07ecad4e7_Player_Attack_4.png",
+          "name": "Player_Attack_4.png"
+        }
+      },
+      {
+        "file": "assets/Player_Attack_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Player_Attack_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Player/6b5795272877ce09fb7ec4abb280bfd11f53e6df929d6299a7bb6ee07ecad4e7_Player_Attack_5.png",
+          "name": "Player_Attack_5.png"
+        }
+      },
+      {
+        "file": "assets/Player_Attack_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Player_Attack_6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Player/7b18649228db13e0479e2e30b608909e8fab0b48c722cd7f63cd4832793ec3ca_Player_Attack_6.png",
+          "name": "Player_Attack_6.png"
+        }
+      },
+      {
+        "file": "assets/Player_Attack_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Player_Attack_7.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Player/eb8a8fd305f7c8e1bfc6b203e27da45bfe76087f44357a10c77c6cd6201b8507_Player_Attack_7.png",
+          "name": "Player_Attack_7.png"
+        }
+      },
+      {
+        "file": "assets/Player_Attack_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Player_Attack_8.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Player/60bd0a53eea38c325c98c8816764bea815c8b11262b4988742f4d87cdddf9e7e_Player_Attack_8.png",
+          "name": "Player_Attack_8.png"
+        }
+      },
+      {
+        "file": "assets/Player_Attack_9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Player_Attack_9.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Player/60bd0a53eea38c325c98c8816764bea815c8b11262b4988742f4d87cdddf9e7e_Player_Attack_9.png",
+          "name": "Player_Attack_9.png"
+        }
+      },
+      {
+        "file": "assets/Player_Fall_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Player_Fall_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Player/10bacf898a9f9a30de6d3e6a40588aea755a8858f9822176b52fedc7ab13853c_Player_Fall_1.png",
+          "name": "Player_Fall_1.png"
+        }
+      },
+      {
+        "file": "assets/Player_Fall_10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Player_Fall_10.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Player/d842f82e471937281dfc360be805128df64937f76ff3873abc5e054367e7b189_Player_Fall_10.png",
+          "name": "Player_Fall_10.png"
+        }
+      },
+      {
+        "file": "assets/Player_Fall_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Player_Fall_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Player/26c0b3931f63ed7fdb65620efe3360456c2c0959fd0ed72df16e10ba2466eb3d_Player_Fall_2.png",
+          "name": "Player_Fall_2.png"
+        }
+      },
+      {
+        "file": "assets/Player_Fall_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Player_Fall_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Player/c30e1a2286f746c683bb5a9f64fdf7720bceade653a578a67e5048ba00ae3c93_Player_Fall_3.png",
+          "name": "Player_Fall_3.png"
+        }
+      },
+      {
+        "file": "assets/Player_Fall_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Player_Fall_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Player/d842f82e471937281dfc360be805128df64937f76ff3873abc5e054367e7b189_Player_Fall_4.png",
+          "name": "Player_Fall_4.png"
+        }
+      },
+      {
+        "file": "assets/Player_Fall_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Player_Fall_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Player/26c0b3931f63ed7fdb65620efe3360456c2c0959fd0ed72df16e10ba2466eb3d_Player_Fall_5.png",
+          "name": "Player_Fall_5.png"
+        }
+      },
+      {
+        "file": "assets/Player_Fall_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Player_Fall_6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Player/c30e1a2286f746c683bb5a9f64fdf7720bceade653a578a67e5048ba00ae3c93_Player_Fall_6.png",
+          "name": "Player_Fall_6.png"
+        }
+      },
+      {
+        "file": "assets/Player_Fall_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Player_Fall_7.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Player/d842f82e471937281dfc360be805128df64937f76ff3873abc5e054367e7b189_Player_Fall_7.png",
+          "name": "Player_Fall_7.png"
+        }
+      },
+      {
+        "file": "assets/Player_Fall_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Player_Fall_8.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Player/26c0b3931f63ed7fdb65620efe3360456c2c0959fd0ed72df16e10ba2466eb3d_Player_Fall_8.png",
+          "name": "Player_Fall_8.png"
+        }
+      },
+      {
+        "file": "assets/Player_Fall_9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Player_Fall_9.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Player/c30e1a2286f746c683bb5a9f64fdf7720bceade653a578a67e5048ba00ae3c93_Player_Fall_9.png",
+          "name": "Player_Fall_9.png"
+        }
+      },
+      {
+        "file": "assets/Player_Idle_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Player_Idle_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Player/73735921a57c03d5e44837b8ada4a3b52511918a955d60414e3ca1efe14a3d46_Player_Idle_1.png",
+          "name": "Player_Idle_1.png"
+        }
+      },
+      {
+        "file": "assets/Player_Idle_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Player_Idle_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Player/c0c47d4d1ce3d5b4fe1a4a4f1fe323f8cc72727fab4ac1735602512180ee5d4c_Player_Idle_2.png",
+          "name": "Player_Idle_2.png"
+        }
+      },
+      {
+        "file": "assets/Player_Idle_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Player_Idle_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Player/426d592ba6208fa948320aa6f313f407fba2f5afa44e43f6bd7fb8858386c7a7_Player_Idle_3.png",
+          "name": "Player_Idle_3.png"
+        }
+      },
+      {
+        "file": "assets/Player_Jump_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Player_Jump_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Player/16f7a72422eda7459c9c8de04f70892e2eb3b226774482308a0d0648c208173d_Player_Jump_1.png",
+          "name": "Player_Jump_1.png"
+        }
+      },
+      {
+        "file": "assets/Player_Jump_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Player_Jump_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Player/b29473fd52f2f045dc0330c7bf7ec62d43b13e307fcd410a27ff23016bea1815_Player_Jump_2.png",
+          "name": "Player_Jump_2.png"
+        }
+      },
+      {
+        "file": "assets/Player_Jump_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Player_Jump_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Player/ea544f78f55afcb962e1bd2028a0bde89e2673115d7b1e2c71f6e9c92a2ec8f3_Player_Jump_3.png",
+          "name": "Player_Jump_3.png"
+        }
+      },
+      {
+        "file": "assets/Player_Jump_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Player_Jump_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Player/9e8f0d930af76994364c3a93e03c6fffc3cd38d6587559a8b6803817f7bb3a2f_Player_Jump_4.png",
+          "name": "Player_Jump_4.png"
+        }
+      },
+      {
+        "file": "assets/Player_Run_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Player_Run_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Player/81490a77d7ff4d8ae85ae8a434f8c6e4a88d64e92126f2808b704137c0e60bdc_Player_Run_1.png",
+          "name": "Player_Run_1.png"
+        }
+      },
+      {
+        "file": "assets/Player_Run_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Player_Run_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Player/986a118cf9ad78c1ae71ec7cb55991709dd768efe2764883bbda6156df6129b3_Player_Run_2.png",
+          "name": "Player_Run_2.png"
+        }
+      },
+      {
+        "file": "assets/Player_Run_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Player_Run_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Player/ccd8978d5556e16a46764872022c032a6327b430c1f131ee44c8a2eec9592a64_Player_Run_3.png",
+          "name": "Player_Run_3.png"
+        }
+      },
+      {
+        "file": "assets/Player_Run_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Player_Run_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Player/0c67c716feb33a13b0fac224b4bc7f8adf88da667d846512bc4bb87dca9c17a0_Player_Run_4.png",
+          "name": "Player_Run_4.png"
+        }
+      },
+      {
+        "file": "assets/Player_Run_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Player_Run_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Player/4cee7ddfa19b0529db63296243ba427ec2c75363d9cc88e1bce6b750135a9cc8_Player_Run_5.png",
+          "name": "Player_Run_5.png"
+        }
+      },
+      {
+        "file": "assets/Player_Run_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Player_Run_6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Player/558d59c938737ef5f266394bbac115dbe58f74f8039714558941fdf4516bf027_Player_Run_6.png",
+          "name": "Player_Run_6.png"
+        }
+      },
+      {
+        "file": "assets/Player_Run_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Player_Run_7.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Player/5d69e193ce0e5e2067b20cb25efcf94422849956d6549aa6a01190e25db5437c_Player_Run_7.png",
+          "name": "Player_Run_7.png"
+        }
+      },
+      {
+        "file": "assets/Player_Run_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Player_Run_8.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Player/5bf4c9614cf97fe0e1f7fe4f54144146bfab55ab5b53b6e08f79661aff58a83a_Player_Run_8.png",
+          "name": "Player_Run_8.png"
+        }
+      },
+      {
+        "file": "9AZSTQ.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "9AZSTQ.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "9AZSTQ2.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "9AZSTQ2.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "yf0LWkNYRMOseTB5-spRSg.webp",
+        "kind": "image",
+        "metadata": "",
+        "name": "yf0LWkNYRMOseTB5-spRSg.webp",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -2965,11 +3433,26 @@
     "folderName": "__ROOT"
   },
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "name": "FinalScore",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "PlayerAnimationName",
+      "type": "string",
+      "value": ""
+    }
+  ],
   "layouts": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/main"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/endscreen"
     }
   ],
   "externalEvents": [],
